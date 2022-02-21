@@ -726,6 +726,13 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"hexo-butterfly-clock@^1.0.7":
+  "integrity" "sha512-pAyVICBOpmjCjg+qwxonSlcPQ8vsoKGWVRCsVXT1RT0hAqB9d1t81Gl7JpA7dWd+xdvkUaWX7QIvjyaGLp1nig=="
+  "resolved" "https://registry.npmmirror.com/hexo-butterfly-clock/-/hexo-butterfly-clock-1.0.7.tgz"
+  "version" "1.0.7"
+  dependencies:
+    "pug" "^3.0.0"
+
 "hexo-cli@^4.0.0":
   "integrity" "sha1-S7K/EaMPrmAfL1OsDLgz/uMYdkk="
   "resolved" "https://registry.nlark.com/hexo-cli/download/hexo-cli-4.3.0.tgz"
@@ -1524,7 +1531,7 @@
   "resolved" "https://registry.nlark.com/pug-walk/download/pug-walk-2.0.0.tgz"
   "version" "2.0.0"
 
-"pug@^3.0.2":
+"pug@^3.0.0", "pug@^3.0.2":
   "integrity" "sha1-81xxBzQ0VOQ7wnrg/3bHMbeOpTU="
   "resolved" "https://registry.npm.taobao.org/pug/download/pug-3.0.2.tgz"
   "version" "3.0.2"

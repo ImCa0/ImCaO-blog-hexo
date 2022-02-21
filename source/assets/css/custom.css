@@ -14,7 +14,7 @@
 #page-header.post-bg:before {
   background-color: transparent !important;
 }
-#page-header:not(.not-top-img):before{
+#page-header:not(.not-top-img):before {
   background-color: transparent !important;
 }
 /*夜间模式伪类遮罩层透明*/
@@ -23,4 +23,23 @@
 }
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
+}
+
+.clock-row,
+.card-clock-time {
+  font-family: ZhuZiAYuanJWD !important;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.card-clock-weather {
+  flex-basis: calc(30% + 50px) !important;
+}
+
+.card-clock-location {
+  flex-basis: calc(30% + 250px) !important;
+}
+
+.card-background {
+  box-shadow: inset 3px 3px 18px 0 rgb(50 50 50 / 15%) !important;
 }
