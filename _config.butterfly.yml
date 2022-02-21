@@ -606,6 +606,9 @@ subtitle:
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub: 
     - 花有重开日，人无再少年。
+    - 夕阳无限好，只是近黄昏。
+    - 人生得意须尽欢，莫使金樽空对月。
+    - 长风破浪会有时，直挂云帆济沧海。
 
 # Loading Animation (加載動畫)
 preloader: false
