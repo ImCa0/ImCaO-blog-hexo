@@ -1,43 +1,62 @@
-- class_name: 小伙伴们 👋
-  class_desc: 
+- class_name: 大人物们 🧙‍♂️
+  class_desc:
   link_list:
-    - name: '叫我詹躲躲'
-      descr: '岂能尽如人意，但求无愧于心'
-      avatar: 'https://zhanhongzhu.top/avatar.jpg'
-      link: 'https://zhanhongzhu.top'
-    - name: 'latte and cat'
-      descr: 'study programs and record life'
-      avatar: 'https://photo.smallsunnyfox.com/images/blog/head.png'
-      link: 'https://blog.smallsunnyfox.com'
+    - name: "午后南杂"
+      descr: "Enjoy when you can, and endure when you must."
+      avatar: "https://www.recoluan.com/head.png"
+      link: "https://www.recoluan.com"
+    - name: "Akilarの糖果屋"
+      descr: "期待您的光临！"
+      avatar: "https://npm.elemecdn.com/akilar-candyassets/image/siteicon/favicon.png"
+      link: "https://akilar.top"
+    - name: "张洪Heo"
+      descr: "分享设计与科技生活"
+      avatar: "https://blog.zhheo.com/img/avatar.png"
+      link: "https://blog.zhheo.com"
+    - name: "iMaeGoo's Blog"
+      descr: "虹墨空间站"
+      avatar: "https://www.imaegoo.com/images/avatar.jpg"
+      link: "https://www.imaegoo.com"
+- class_name: 小伙伴们 👋
+  class_desc:
+  link_list:
+    - name: "叫我詹躲躲"
+      descr: "岂能尽如人意，但求无愧于心"
+      avatar: "https://zhanhongzhu.top/avatar.jpg"
+      link: "https://zhanhongzhu.top"
+    - name: "latte and cat"
+      descr: "study programs and record life"
+      avatar: "https://photo.smallsunnyfox.com/images/blog/head.png"
+      link: "https://blog.smallsunnyfox.com"
     - name: "L1nSn0w's Blog"
-      descr: '我很菜，你忍一下！'
-      avatar: 'https://linsnow.cn/img/avatar.jpg'
-      link: 'https://blog.linsnow.cn'
-    - name: 'LOGI'
-      descr: '会点代码的强迫症'
-      avatar: 'https://code.bdstatic.com/npm/logicdn@1.0.0/logi.im/usr/images/global/logo.webp'
-      link: 'https://logi.im'
-    - name: '平凡的你我'
-      descr: '理想成为大牛的小陈同学'
-      avatar: 'https://reinness.com/static/avatar.png'
-      link: 'https://reinness.com'
+      descr: "我很菜，你忍一下！"
+      avatar: "https://linsnow.cn/img/avatar.jpg"
+      link: "https://blog.linsnow.cn"
+    - name: "LOGI"
+      descr: "会点代码的强迫症"
+      avatar: "https://code.bdstatic.com/npm/logicdn@1.0.0/logi.im/usr/images/global/logo.webp"
+      link: "https://logi.im"
+    - name: "平凡的你我"
+      descr: "理想成为大牛的小陈同学"
+      avatar: "https://reinness.com/static/avatar.png"
+      link: "https://reinness.com"
     - name: "XIAOMING'S BLOG"
-      descr: '记录生活点滴，谱写精彩生活！'
-      avatar: 'https://pic.vimin.cc/logo.png'
-      link: 'https://vimin.cc'
+      descr: "记录生活点滴，谱写精彩生活！"
+      avatar: "https://pic.vimin.cc/logo.png"
+      link: "https://vimin.cc"
     - name: "鱼跃此时海"
-      descr: '鱼跃此时海，花开彼岸天'
-      avatar: 'https://www.overme.cn/static/img/portrait.jpg'
-      link: 'https://www.overme.cn'
+      descr: "鱼跃此时海，花开彼岸天"
+      avatar: "https://www.overme.cn/static/img/portrait.jpg"
+      link: "https://www.overme.cn"
     - name: "Sakura` Blogs"
-      descr: '或苦或甜都不要辜负~'
-      avatar: 'https://cdn.jsdelivr.net/gh/jinan6/PicGo-img/img/20200617192549.png'
-      link: 'https://jinan6.vip'
-    - name: 'Colsrch'
-      descr: '愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'
-      avatar: 'https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg'
-      link: 'https://colsrch.cn'
-    - name: 'HuRan Blog'
-      descr: '长风破浪会有时，直挂云帆济沧海'
-      avatar: 'https://img.huran.xyz/avatar.png'
-      link: 'https://blog.huran.xyz'
+      descr: "或苦或甜都不要辜负~"
+      avatar: "https://cdn.jsdelivr.net/gh/jinan6/PicGo-img/img/20200617192549.png"
+      link: "https://jinan6.vip"
+    - name: "Colsrch"
+      descr: "愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。"
+      avatar: "https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg"
+      link: "https://colsrch.cn"
+    - name: "HuRan Blog"
+      descr: "长风破浪会有时，直挂云帆济沧海"
+      avatar: "https://img.huran.xyz/avatar.png"
+      link: "https://blog.huran.xyz"
