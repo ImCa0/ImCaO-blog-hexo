@@ -3,12 +3,16 @@
 # --------------------------------------
 
 menu:
-  首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  友链: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+  首页: / || fa-solid fa-house-chimney
+  时间轴: /archives/ || fa-solid fa-calendar-days
+  标签: /tags/ || fa-solid fa-tags
+  分类: /categories/ || fa-solid fa-folder-open
+  留言板: /MessageBoard/ || fa-solid fa-feather-pointed
+  友人帐: /link/ || fa-solid fa-user-group
+  链接||fa-solid fa-link:
+    关于: /about/ || fa-solid fa-user
+    足迹: /footprint/ || fa-solid fa-location-dot
+    个人收藏夹: https://www.imcao.cn/favorites/ || fa-solid fa-bookmark
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -34,6 +38,8 @@ copy:
 social:
   fab fa-github: https://github.com/ImCa0 || Github
   fas fa-envelope: mailto:imcao@imcao.cn || Email
+  fab fa-weibo: https://weibo.com/u/3533869340 || Weibo
+  fab fa-steam: https://steamcommunity.com/id/ImCaO || Steam
 
 # search (搜索)
 # --------------------------------------
@@ -81,7 +87,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /assets/img/bg.jpg
+index_img: 
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: 
@@ -100,7 +106,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: /assets/img/bg.jpg
+category_img: 
 
 # The banner image of category page
 # format:
@@ -400,7 +406,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 1e88112951e05e354a90e7668ad35e6e
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -482,7 +488,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(/assets/img/bg.jpg)
+background: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.0/img/bg.jpg)
 
 # Footer Background
 footer_bg: true
@@ -567,14 +573,14 @@ beautify:
 font:
   global-font-size: 16px
   code-font-size:
-  font-family: HarmonyOS_Regular
+  font-family: ZhuZiAYuanJWD
   code-font-family:
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
   font_link:
-  font-family: Chalkboard SE,Hiragino Mincho Pron,Comic Sans MS,STZhongsong,Ovo,Georgia,Microsoft YaHei,serif
+  font-family: Chalkboard_SE,ptsm
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -622,7 +628,7 @@ aside:
       link: https://github.com/ImCa0
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 本站主题已由 vuepress-theme-reco 变更为 hexo-theme-butterfly 🎉🎉🎉
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -646,7 +652,7 @@ aside:
     limit: 8 # if set 0 will show all
     sort_order: # Don't modify the setting unless you know how it works
   card_webinfo:
-    enable: true
+    enable: false
     post_count: true
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
