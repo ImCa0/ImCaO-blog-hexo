@@ -8,7 +8,7 @@ tags:
   - 科研
 categories:
   - 开发
-cover: /assets/covers/neo4j.jpg
+cover: /assets/covers/neo4j.svg
 ---
 
 ## 简介
