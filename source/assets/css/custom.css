@@ -49,3 +49,8 @@
     transform: translateX(-41px) !important;
   }
 }
+
+#site-title {
+  font-family: Chalkboard_SE, ZhuZiAYuanJWD !important;
+  font-weight: normal !important;
+}
