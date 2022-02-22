@@ -43,3 +43,9 @@
 .card-background {
   box-shadow: inset 3px 3px 18px 0 rgb(50 50 50 / 15%) !important;
 }
+
+@media screen and (min-width: 768px) {
+  #tidio-chat-iframe {
+    transform: translateX(-41px) !important;
+  }
+}

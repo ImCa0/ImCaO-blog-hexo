@@ -372,8 +372,8 @@ chatra:
 # tidio
 # https://www.tidio.com/
 tidio:
-  enable: false
-  public_key:
+  enable: true
+  public_key: gtoxktda6mwnewd3ddfpwyaw9zjkczai
 
 # daovoice
 # http://daovoice.io/
@@ -936,5 +936,5 @@ electric_clock:
     index: 0
   loading: https://npm.elemecdn.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
   clock_css: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.css
-  clock_js: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.js
+  clock_js: https://npm.elemecdn.com/imcao-blog-hexo@1.0.3/js/clock.min.js
   ip_api: https://pv.sohu.com/cityjson?ie=utf-8
