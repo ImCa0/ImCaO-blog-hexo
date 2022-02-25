@@ -3,13 +3,14 @@
 # --------------------------------------
 
 menu:
-  首页: / || fa-solid fa-house-chimney
+  首页: / || fa-solid fa-home
   时间轴: /archives/ || fa-solid fa-calendar-days
   留言板: /MessageBoard/ || fa-solid fa-feather-pointed
   友人帐: /link/ || fa-solid fa-user-group
-  关于: /about/ || fa-solid fa-user
-  链接||fa-solid fa-link:
+  关于我: /about/ || fa-solid fa-address-card
+  传送门||fa-regular fa-person-to-portal:
     足迹: /footprint/ || fa-solid fa-location-dot
+    空调房: /air-conditioner/ || fa-solid fa-air-conditioner
     站点历程: /progress/ || fa-solid fa-clock-rotate-left
     个人收藏夹: https://www.imcao.cn/favorites/ || fa-solid fa-bookmark
 
@@ -662,8 +663,8 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
+  site_uv: false
+  site_pv: false
   page_pv: false
 
 # Time difference between publish date and now (網頁運行時間)
@@ -902,7 +903,7 @@ CDN:
   ClickShowText:
 
   # fontawesome
-  fontawesome:
+  fontawesomeV6:
 
   # Conversion between Traditional and Simplified Chinese
   translate:
