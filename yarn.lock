@@ -886,6 +886,11 @@
     "prismjs" "^1.17.1"
     "strip-indent" "^3.0.0"
 
+"hexo-wordcount@^6.0.1":
+  "integrity" "sha512-tbo2P9xRWEKQmRf7+XuPjx9It1MnaE26nA+EEb2DN39gK1x+26W7Nm4Iyp4AugQjBWYYDx7OLn4gp1WFxQpQew=="
+  "resolved" "https://registry.npmmirror.com/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz"
+  "version" "6.0.1"
+
 "hexo@^6.0.0":
   "integrity" "sha512-ffSOhOEwPCJt2Ch4DdCdX39WBv8IX8I8I7md08RMDYc6jqxmE2mpuU8wzFYEJ/FQVjrt/EsQ/qfKAz3zAW/hvw=="
   "resolved" "https://registry.npmmirror.com/hexo/download/hexo-6.0.0.tgz"

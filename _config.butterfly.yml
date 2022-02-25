@@ -5,12 +5,10 @@
 menu:
   首页: / || fa-solid fa-house-chimney
   时间轴: /archives/ || fa-solid fa-calendar-days
-  标签: /tags/ || fa-solid fa-tags
-  分类: /categories/ || fa-solid fa-folder-open
   留言板: /MessageBoard/ || fa-solid fa-feather-pointed
   友人帐: /link/ || fa-solid fa-user-group
+  关于: /about/ || fa-solid fa-user
   链接||fa-solid fa-link:
-    关于: /about/ || fa-solid fa-user
     足迹: /footprint/ || fa-solid fa-location-dot
     站点历程: /progress/ || fa-solid fa-clock-rotate-left
     个人收藏夹: https://www.imcao.cn/favorites/ || fa-solid fa-bookmark
@@ -142,7 +140,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -153,7 +151,7 @@ post_meta:
 
 # wordcount (字數統計)
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
