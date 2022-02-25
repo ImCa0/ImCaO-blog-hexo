@@ -2,6 +2,8 @@
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
 
+meta_color: "#51678c"
+
 menu:
   首页: / || fa-solid fa-home
   时间轴: /archives/ || fa-solid fa-calendar-days
