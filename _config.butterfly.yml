@@ -2,8 +2,6 @@
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
 
-meta_color: "#51678c"
-
 menu:
   首页: / || fa-solid fa-home
   时间轴: /archives/ || fa-solid fa-calendar-days
@@ -458,8 +456,8 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-# theme_color:
-#   enable: true
+theme_color:
+  enable: true
 #   main: "#49B1F5"
 #   paginator: "#00c4b6"
 #   button_hover: "#FF7242"
@@ -473,6 +471,8 @@ site_verification:
 #   blockquote_padding_color: "#49b1f5"
 #   blockquote_background_color: "#49b1f5"
 #   scrollbar_color: "#49b1f5"
+  meta_theme_color_light: "#51678c"
+#   meta_theme_color_dark: "#0d0d0d"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
