@@ -5,6 +5,12 @@ date: 2022-02-21 14:46:35
 
 {% timeline 2022 %}
 
+<!-- timeline 03-07 -->
+
+✉️ 加入[“十年之约”](https://www.foreverblog.cn/)
+
+<!-- endtimeline -->
+
 <!-- timeline 02-18 -->
 
 🦋 博客主题变更为 hexo-theme-butterfly

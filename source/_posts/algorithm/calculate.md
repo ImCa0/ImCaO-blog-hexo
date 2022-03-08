@@ -6,6 +6,8 @@ tags:
 categories:
   - 算法
 cover: /assets/covers/calculate.jpg
+copyright_author: 宫水三叶
+copyright_url: https://leetcode-cn.com/problems/basic-calculator-ii/solution/shi-yong-shuang-zhan-jie-jue-jiu-ji-biao-c65k/
 ---
 
 ## 题目
