@@ -2,7 +2,7 @@
 title: 友人帐
 date: 2022-01-17 21:48:11
 type: "link"
-flink_url: https://www.imcao.cn/link.json
+flink_url: https://cdn.jsdelivr.net/gh/ImCa0/ImCaO-blog-hexo/source/link.json
 ---
 
 ## 友链申请 🚀
@@ -21,13 +21,19 @@ flink_url: https://www.imcao.cn/link.json
 
 <!-- endtab -->
 
-<!-- tab 申请格式 -->
+<!-- tab 申请方式 -->
+
+### 方式一：修改 GitHub [友链文件](https://github.com/ImCa0/ImCaO-blog-hexo/edit/master/source/link.json)，并提交 PR（快速）
+
+[![github](./github.png)](https://github.com/ImCa0/ImCaO-blog-hexo/edit/master/source/link.json)
+
+### 方式二：提交评论并包含以下信息
 
 ```yml
-- name: "" // 网站名称
-  link: "" // 网站地址
-  avatar: "" // 头像地址
-  descr: "" // 网站描述
+name: "" // 网站名称
+link: "" // 网站地址
+avatar: "" // 头像地址
+descr: "" // 网站描述
 ```
 
 <!-- endtab -->
@@ -35,10 +41,10 @@ flink_url: https://www.imcao.cn/link.json
 <!-- tab 本站信息 -->
 
 ```yml
-- name: "ImCaO's Blog"
-  link: "https://www.imcao.cn"
-  avatar: "https://www.imcao.cn/avatar.png"
-  descr: "花有重开日，人无再少年。"
+name: "ImCaO's Blog"
+link: "https://www.imcao.cn"
+avatar: "https://www.imcao.cn/avatar.png"
+descr: "花有重开日，人无再少年。"
 ```
 
 <!-- endtab -->
