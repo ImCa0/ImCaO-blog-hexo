@@ -767,7 +767,7 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
@@ -830,6 +830,8 @@ inject:
   head:
     - <link rel="stylesheet" href="/assets/css/font.css">
     - <link rel="stylesheet" href="/assets/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+		- <link rel="stylesheet" href="/assets/css/bb-index.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>

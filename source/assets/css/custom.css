@@ -54,3 +54,10 @@
   font-family: Chalkboard_SE, ZhuZiAYuanJWD !important;
   font-weight: normal !important;
 }
+
+.fontawesomeIcon,
+hr:before,
+#post .post-outdate-notice:before,
+.note:not(.no-icon)::before {
+  font-family: "Font Awesome 6 Pro" !important;
+}
