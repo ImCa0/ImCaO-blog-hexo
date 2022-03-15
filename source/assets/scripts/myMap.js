@@ -40,9 +40,13 @@ option = {
     backgroundColor: "#222",
     borderColor: "#777",
     borderWidth: 1,
+    textStyle: {
+      color: "#fff",
+      fontSize: 16
+    },
     formatter: function (params) {
       name = params.name;
-      return '<div style="font-size: 18px; color: white;">' + name + "</div>";
+      return '<div style="font-size: 16px; color: white;">' + name + "</div>";
     },
   },
   geo: {
@@ -55,11 +59,11 @@ option = {
     roam: false,
     itemStyle: {
       normal: {
-        areaColor: "#E5E5E5",
+        areaColor: "#ACDAF9",
         borderColor: "#111",
       },
       emphasis: {
-        areaColor: "#3489fd",
+        areaColor: "#49b1f5",
       },
     },
   },
@@ -67,6 +71,7 @@ option = {
     {
       name: "足迹",
       type: "scatter",
+      symbolSize: 8,
       coordinateSystem: "geo",
       data: data,
       showEffectOn: "render",
@@ -83,9 +88,9 @@ option = {
       },
       itemStyle: {
         normal: {
-          color: "#ff5c46",
+          color: "#FF6C57",
           shadowBlur: 10,
-          shadowColor: "#333",
+          shadowColor: "#ACDAF9",
         },
       },
       zlevel: 1,
