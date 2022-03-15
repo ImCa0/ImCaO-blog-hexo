@@ -842,7 +842,7 @@ inject:
 # 非必要請不要修改
 CDN:
   # custom
-  vue: https://npm.elemecdn.com/vue@2.6.11  # vue.js依赖
+  vue: https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js  # vue.js依赖
   
   # main
   main_css:
