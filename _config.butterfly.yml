@@ -841,6 +841,9 @@ inject:
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 CDN:
+  # custom
+  vue: https://npm.elemecdn.com/vue@2.6.11  # vue.js依赖
+  
   # main
   main_css:
   main:
@@ -942,3 +945,12 @@ electric_clock:
   clock_css: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.css
   clock_js: https://npm.elemecdn.com/imcao-blog-hexo@1.0.3/js/clock.min.js
   ip_api: https://pv.sohu.com/cityjson?ie=utf-8
+
+gitcalendar:
+  enable: true
+  #设为true时使用canvas绘制gitgitcalendar，
+  #设为false时使用svg绘制gitgitcalendar
+  simplemode: false
+  user: ImCa0
+  apiurl:  # 留空为默认公共API
+  color: "['#ebedf0', '#CBE3FF', '#79B7FF', '#83BCFF', '#59A6FF', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调

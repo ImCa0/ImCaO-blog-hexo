@@ -61,3 +61,10 @@ hr:before,
 .note:not(.no-icon)::before {
   font-family: "Font Awesome 6 Pro" !important;
 }
+
+.gitcalendar {
+  font-family: ZhuZiAYuanJWD;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: var(--card-bg);
+}
