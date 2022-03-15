@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 var myChart = echarts.init(document.getElementById("myMap"));
 
 var data = [
@@ -42,7 +44,7 @@ option = {
     borderWidth: 1,
     textStyle: {
       color: "#fff",
-      fontSize: 16
+      fontSize: 16,
     },
     formatter: function (params) {
       name = params.name;

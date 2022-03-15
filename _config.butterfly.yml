@@ -11,6 +11,7 @@ menu:
   传送门||fa-regular fa-person-to-portal:
     足迹: /footprint/ || fa-solid fa-location-dot
     空调房: /air-conditioner/ || fa-solid fa-air-conditioner
+    博客统计: /census/ || fa-solid fa-chart-column
     站点历程: /progress/ || fa-solid fa-clock-rotate-left
     个人收藏夹: https://www.imcao.cn/favorites/ || fa-solid fa-bookmark
 
