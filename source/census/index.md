@@ -27,7 +27,7 @@ date: 2021-03-15 09:37:13
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 724px) {
   .mid-column {
     border-left: 0;
     border-right: 0;
@@ -36,6 +36,26 @@ date: 2021-03-15 09:37:13
   }
   .flex-table {
     flex-direction: column;
+  }
+  .table-column {
+    width: 100%
+  }
+  #visit_container {
+    height: 380px !important;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 900px) {
+  .mid-column {
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  .flex-table {
+    flex-direction: column;
+  }
+  .table-column {
+    width: 100%
   }
   #visit_container {
     height: 380px !important;
