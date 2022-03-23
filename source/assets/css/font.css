@@ -2,26 +2,34 @@
   font-family: ZhuZiAYuanJWD;
   src: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.1/fonts/ZhuZiAWan.ttf);
   font-display: swap;
-  font-weight: lighter
+  font-weight: lighter;
 }
 
 @font-face {
   font-family: HarmonyOS_Regular;
   src: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.1/fonts/HarmonyOS_Regular.ttf);
   font-display: swap;
-  font-weight: lighter
+  font-weight: lighter;
 }
 
 @font-face {
   font-family: ptsm;
   src: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.1/fonts/ptsm.ttf);
   font-display: swap;
-  font-weight: lighter
+  font-weight: lighter;
 }
 
 @font-face {
   font-family: Chalkboard_SE;
   src: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.1/fonts/ChalkboardSE-Regular.ttf);
   font-display: swap;
-  font-weight: lighter
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  src: url(https://cdn.bootcdn.net/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.ttf);
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
 }
