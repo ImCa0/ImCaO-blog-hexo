@@ -4,7 +4,7 @@ date: 2021-10-29
 tags:
   - 歌曲
 categories:
-  - 收藏
+  - 投币收藏
 cover: /assets/covers/whatimiss.jpg
 description: 孙燕姿
 copyright: false

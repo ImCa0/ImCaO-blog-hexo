@@ -4,7 +4,7 @@ date: 2021-11-01
 tags:
   - Spring Boot
 categories:
-  - 开发
+  - 我的开发
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/SpringBootAutoConfiguration.png
 ---
 

@@ -4,7 +4,7 @@ date: 2021-03-19 15:28:25
 tags:
   - 滑动窗口
 categories:
-  - 算法
+  - 算法刷题
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/LeetCode.png
 copyright_author: 负雪明烛
 copyright_url: https://leetcode-cn.com/problems/max-consecutive-ones-iii/solution/fen-xiang-hua-dong-chuang-kou-mo-ban-mia-f76z/

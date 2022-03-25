@@ -4,7 +4,7 @@ date: 2021-03-21 00:49:30
 tags:
   - 比赛
 categories:
-  - 算法
+  - 算法刷题
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/LeetCode.png
 ---
 

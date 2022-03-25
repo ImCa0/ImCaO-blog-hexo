@@ -4,7 +4,7 @@ date: 2021-04-25 16:22:48
 tags:
   - 科研
 categories:
-  - 开发
+  - 我的开发
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/StageSummary.jpg
 ---
 

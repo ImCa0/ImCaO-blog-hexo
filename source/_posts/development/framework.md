@@ -7,7 +7,7 @@ tags:
   - MQTT
   - InfluxDB
 categories:
-  - 开发
+  - 我的开发
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/framework.jpg
 ---
 
