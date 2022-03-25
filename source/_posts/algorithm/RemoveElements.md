@@ -4,7 +4,7 @@ date: 2021-03-15 14:28:55
 tags:
   - 链表
 categories:
-  - 算法
+  - 算法刷题
 cover: https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/removeElements/4.jpg
 ---
 

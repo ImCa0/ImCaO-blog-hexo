@@ -5,7 +5,7 @@ tags:
   - 假期
   - 折腾
 categories:
-  - 随笔
+  - 闲聊杂谈
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/summer.jpg
 ---
 

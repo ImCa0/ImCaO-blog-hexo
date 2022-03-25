@@ -4,7 +4,7 @@ date: 2021-11-02
 tags:
   - 歌曲
 categories:
-  - 收藏
+  - 投币收藏
 cover: /assets/covers/LongAfter.jpg
 description: 邓紫棋
 copyright: false

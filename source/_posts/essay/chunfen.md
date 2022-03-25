@@ -4,7 +4,7 @@ date: 2021-03-20 18:15:25
 tags:
   - 生活
 categories:
-  - 随笔
+  - 闲聊杂谈
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/chunfen.jpg
 ---
 

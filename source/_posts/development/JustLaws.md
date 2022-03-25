@@ -5,7 +5,7 @@ tags:
   - 法律
   - Vuepress
 categories:
-  - 开发
+  - 我的开发
 cover: https://npm.elemecdn.com/imcao-hexo/source/_posts/development/JustLaws/exhibition.png
 sticky: 100
 ---

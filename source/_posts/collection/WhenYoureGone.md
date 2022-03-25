@@ -4,7 +4,7 @@ date: 2021-11-18
 tags:
   - 歌曲
 categories:
-  - 收藏
+  - 投币收藏
 cover: /assets/covers/WhenYoureGone.jpg
 description: Avril Lavigne
 copyright: false

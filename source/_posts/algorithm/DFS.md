@@ -5,7 +5,7 @@ tags:
   - 岛屿
   - DFS
 categories:
-  - 算法
+  - 算法刷题
 cover: https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/islands.jpg
 copyright_author: nettee
 copyright_url: https://leetcode-cn.com/problems/number-of-islands/solution/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/

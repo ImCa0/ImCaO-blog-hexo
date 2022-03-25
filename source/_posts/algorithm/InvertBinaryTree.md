@@ -4,7 +4,7 @@ date: 2021-03-22 16:30:17
 tags:
   - 树
 categories:
-  - 算法
+  - 算法刷题
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/LeetCode.png
 ---
 

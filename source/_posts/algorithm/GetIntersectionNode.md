@@ -4,7 +4,7 @@ date: 2021-03-11 19:59:17
 tags:
   - 链表
 categories:
-  - 算法
+  - 算法刷题
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/YourName.jpg
 copyright_author: 皮卡澄
 copyright_url: https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/solution/ni-de-ming-zi-ni-bian-cheng-wo-wo-bian-c-q56d/

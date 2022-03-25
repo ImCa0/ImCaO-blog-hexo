@@ -8,7 +8,7 @@ tags:
   - Vue
   - Spring Boot
 categories:
-  - 开发
+  - 我的开发
 cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/vue-spring.jpg
 ---
 
