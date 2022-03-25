@@ -5,7 +5,7 @@ tags:
   - 链表
 categories:
   - 算法
-cover: /2021/03/15/RemoveElements/4.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/removeElements/4.jpg
 ---
 
 ## 原题
@@ -16,7 +16,7 @@ cover: /2021/03/15/RemoveElements/4.jpg
 
 ### 示例 1：
 
-![1](./1.jpg)
+![1](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/removeElements/1.jpg)
 
 ```
 输入：head = [1,2,6,3,4,5,6], val = 6
@@ -46,11 +46,11 @@ cover: /2021/03/15/RemoveElements/4.jpg
 - 选择要删除节点的前一个结点 `prev`。
 - 将 `prev` 的 `next` 设置为要删除结点的 `next`。
 
-![2](./2.jpg)
+![2](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/removeElements/2.jpg)
 
 当要删除的一个或多个节点位于链表的头部时，事情会变得复杂。
 
-![3](./3.jpg)
+![3](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/removeElements/3.jpg)
 
 首先要用一个 while 循环对头节点进行判断，删除所有头部要删除的节点，在按上述方法删除中间的节点。具体代码如下：
 
@@ -83,7 +83,7 @@ public static ListNode myRemoveElements(ListNode head, int val) {
 
 哨兵节点广泛应用于树和链表中，如伪头、伪尾、标记等，它们是纯功能的，通常不保存任何数据，其主要目的是使链表标准化，如使链表永不为空、永不无头、简化插入和删除。**即标准的工具人。**
 
-![4](./4.jpg)
+![4](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/removeElements/4.jpg)
 
 在这里哨兵节点将被用于伪头。
 

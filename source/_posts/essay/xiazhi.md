@@ -5,7 +5,7 @@ tags:
   - 生活
 categories:
   - 随笔
-cover: /assets/covers/xiazhi.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/xiazhi.jpg
 ---
 
-![夏至](/assets/covers/xiazhi.jpg)
+![夏至](https://npm.elemecdn.com/imcao-hexo/source/assets/covers/xiazhi.jpg)

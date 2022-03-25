@@ -6,7 +6,7 @@ tags:
   - DFS
 categories:
   - 算法
-cover: /2021/12/09/DFS/islands.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/islands.jpg
 copyright_author: nettee
 copyright_url: https://leetcode-cn.com/problems/number-of-islands/solution/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/
 ---
@@ -32,7 +32,7 @@ copyright_url: https://leetcode-cn.com/problems/number-of-islands/solution/dao-y
 
 岛屿问题是一类典型的网格问题。每个格子中的数字可能是 0 或者 1。我们把数字为 0 的格子看成海洋格子，数字为 1 的格子看成陆地格子，这样相邻的陆地格子就连接成一个岛屿。
 
-![islands](./islands.jpg)
+![islands](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/islands.jpg)
 
 在这样一个设定下，就出现了各种岛屿问题的变种，包括岛屿的数量、面积、周长等。不过这些问题，基本都可以用 DFS 遍历来解决。
 
@@ -62,11 +62,11 @@ void traverse(TreeNode root) {
 
 首先，网格结构中的格子有多少相邻结点？答案是上下左右四个。对于格子 `(r, c)` 来说（r 和 c 分别代表行坐标和列坐标），四个相邻的格子分别是 `(r - 1, c)`、`(r + 1, c)`、`(r, c - 1)`、`(r, c + 1)`。换句话说，网格结构是「四叉」的。
 
-![neighbor](./neighbor.jpg)
+![neighbor](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/neighbor.jpg)
 
 其次，网格 DFS 中的 base case 是什么？从二叉树的 base case 对应过来，应该是网格中不需要继续遍历、`grid[r][c]` 会出现数组下标越界异常的格子，也就是那些超出网格范围的格子。
 
-![OutOfBounds](./OutOfBounds.jpg)
+![OutOfBounds](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/OutOfBounds.jpg)
 
 这一点稍微有些反直觉，坐标竟然可以临时超出网格的范围？这种方法我称为「先污染后治理」—— 甭管当前是在哪个格子，先往四个方向走一步再说，如果发现走出了网格范围再赶紧返回。这跟二叉树的遍历方法是一样的，先递归调用，发现 `root == null` 再返回。
 
@@ -99,7 +99,7 @@ boolean inArea(int[][] grid, int r, int c) {
 
 这时候，DFS 可能会不停地「兜圈子」，永远停不下来，如下图所示：
 
-![InfiniteLoop](./InfiniteLoop.gif)
+![InfiniteLoop](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/InfiniteLoop.gif)
 
 如何避免这样的重复遍历呢？答案是标记已经遍历过的格子。以岛屿问题为例，我们需要在所有值为 1 的陆地格子上做 DFS 遍历。每走过一个陆地格子，就把格子的值改为 2，这样当我们遇到 2 的时候，就知道这是遍历过的格子了。也就是说，每个格子可能取三个值：
 
@@ -135,7 +135,7 @@ boolean inArea(int[][] grid, int r, int c) {
 }
 ```
 
-![sign](./sign.gif)
+![sign](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/sign.gif)
 
 这样，我们就得到了一个岛屿问题、乃至各种网格问题的通用 DFS 遍历方法。以下所讲的几个例题，其实都只需要在 DFS 遍历框架上稍加修改而已。
 
@@ -215,15 +215,15 @@ boolean inArea(int[][] grid, int r, int c) {
 
 大致的思路我们不难想到，我们先计算出所有岛屿的面积，在所有的格子上标记出岛屿的面积。然后搜索哪个海洋格子相邻的两个岛屿面积最大。例如下图中红色方框内的海洋格子，上边、左边都与岛屿相邻，我们可以计算出它变成陆地之后可以连接成的岛屿面积为 7 + 1 + 2 = 10。
 
-![MakingALargeIsland1](./MakingALargeIsland1.jpg)
+![MakingALargeIsland1](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/MakingALargeIsland1.jpg)
 
 然而，这种做法可能遇到一个问题。如下图中红色方框内的海洋格子，它的上边、左边都与岛屿相邻，这时候连接成的岛屿面积难道是 7 + 1 + 7？显然不是。这两个 7 来自同一个岛屿，所以填海造陆之后得到的岛屿面积应该只有 7 + 1 = 8。
 
-![MakingALargeIsland2](./MakingALargeIsland2.jpg)
+![MakingALargeIsland2](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/MakingALargeIsland2.jpg)
 
 可以看到，要让算法正确，我们得能区分一个海洋格子相邻的两个 7 是不是来自同一个岛屿。那么，我们不能在方格中标记岛屿的面积，而应该标记岛屿的索引（下标），另外用一个数组记录每个岛屿的面积，如下图所示。这样我们就可以发现红色方框内的海洋格子，它的「两个」相邻的岛屿实际上是同一个。
 
-![MakingALargeIsland3](./MakingALargeIsland3.jpg)
+![MakingALargeIsland3](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/MakingALargeIsland3.jpg)
 
 可以看到，这道题实际上是对网格做了两遍 DFS：第一遍 DFS 遍历陆地格子，计算每个岛屿的面积并标记岛屿；第二遍 DFS 遍历海洋格子，观察每个海洋格子相邻的陆地格子。
 
@@ -236,7 +236,7 @@ boolean inArea(int[][] grid, int r, int c) {
 > 给定一个包含 0 和 1 的二维网格地图，其中 1 表示陆地，0 表示海洋。网格中的格子水平和垂直方向相连（对角线方向不相连）。整个网格被水完全包围，但其中恰好有一个岛屿（一个或多个表示陆地的格子相连组成岛屿）。
 >
 > 岛屿中没有“湖”（“湖” 指水域在岛屿内部且不和岛屿周围的水相连）。格子是边长为 1 的正方形。计算这个岛屿的周长。
-> ![IslandPerimeter1](./IslandPerimeter1.jpg)
+> ![IslandPerimeter1](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/IslandPerimeter1.jpg)
 
 实话说，这道题用 DFS 来解并不是最优的方法。对于岛屿，直接用数学的方法求周长会更容易。不过这道题是一个很好的理解 DFS 遍历过程的例题，不信你跟着我往下看。
 
@@ -277,7 +277,7 @@ boolean inArea(int[][] grid, int r, int c) {
 
 那么这些和我们岛屿的周长有什么关系呢？实际上，岛屿的周长是计算岛屿全部的「边缘」，而这些边缘就是我们在 DFS 遍历中，`dfs` 函数返回的位置。观察题目示例，我们可以将岛屿的周长中的边分为两类，如下图所示。黄色的边是与网格边界相邻的周长，而蓝色的边是与海洋格子相邻的周长。
 
-![IslandPerimeter2](./IslandPerimeter2.jpg)
+![IslandPerimeter2](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/DFS/IslandPerimeter2.jpg)
 
 当我们的 `dfs` 函数因为「坐标 `(r, c)` 超出网格范围」返回的时候，实际上就经过了一条黄色的边；而当函数因为「当前格子是海洋格子」返回的时候，实际上就经过了一条蓝色的边。这样，我们就把岛屿的周长跟 DFS 遍历联系起来了，我们的题解代码也呼之欲出：
 

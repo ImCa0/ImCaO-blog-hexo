@@ -6,7 +6,7 @@ tags:
   - CSS
 categories:
   - 开发
-cover: assets/covers/selector.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/selector.jpg
 ---
 
 以下介绍 10 种常用的 CSS 选择器

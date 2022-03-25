@@ -120,7 +120,7 @@
       {
         "name": "小康博客",
         "link": "https://www.antmoe.com",
-        "avatar": "https://cdn.jsdelivr.net/npm/kang-static@latest/avatar.jpg",
+        "avatar": "https://npm.elemecdn.com/kang-static@latest/avatar.jpg",
         "descr": "一个收藏回忆与分享技术的地方！"
       },
       {
@@ -144,7 +144,7 @@
       {
         "name": "虫洞",
         "link": "https://www.foreverblog.cn/go.html",
-        "avatar": "https://npm.elemecdn.com/imcao-blog-hexo@1.0.6/img/wormhole.gif",
+        "avatar": "https://npm.elemecdn.com/imcao-hexo/source/assets/img/wormhole.gif",
         "descr": "一个人的寂寞，一群人的狂欢。"
       }
     ]
