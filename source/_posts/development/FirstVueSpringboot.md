@@ -9,7 +9,7 @@ tags:
   - Spring Boot
 categories:
   - 开发
-cover: /assets/covers/vue-spring.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/vue-spring.jpg
 ---
 
 ## 前言
@@ -22,9 +22,9 @@ cover: /assets/covers/vue-spring.jpg
 
 第一块内容学姐已经做完了，但是是基于 JS 开发的，而整个云平台要求用 Vue + SpringBoot 开发，所以需要修改项目框架，花了一周时间，完成了整个项目的复现。
 
-![5](./5.jpg)
+![5](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/FirstVueSpringboot/5.jpg)
 
-![6](./6.jpg)
+![6](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/FirstVueSpringboot/6.jpg)
 
 第一次用 Vue + SpringBoot 开发，还是遇到了很多问题，所以做个小结。
 
@@ -36,13 +36,13 @@ cover: /assets/covers/vue-spring.jpg
 
 做完平台的第一部分，明白了模块化开发的精髓，一个页面中包含多个模块，开发时只需要考虑本模块实现的功能，并且数据和路由全部封装在模块里，大大降低了耦合性。
 
-![1](./1.jpg)
+![1](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/FirstVueSpringboot/1.jpg)
 
 ### 数据
 
 前端数据不再直接死板，从后端接收的数据以变量的形式储存下来，必要时还能进行修改，像后端发送的数据也不局限于表单内容，可以通过前端定义的变量自由定义提交的数据结构。
 
-![2](./2.jpg)
+![2](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/FirstVueSpringboot/2.jpg)
 
 ## 后端
 
@@ -52,13 +52,13 @@ cover: /assets/covers/vue-spring.jpg
 
 既然前后端分离了，就要配置跨越请求，其实还是不太明白背后的实现原理，先暂时能用就行了。
 
-![3](./3.jpg)
+![3](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/FirstVueSpringboot/3.jpg)
 
 ### 实体类
 
 原本的实力类只有对应数据库的 POJO(Plain Ordinary Java Object) 现在还要加入与前端通信用的 Vo，定义了数据交换的结构。
 
-![4](./4.jpg)
+![4](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/FirstVueSpringboot/4.jpg)
 
 ## 部署
 
@@ -72,4 +72,4 @@ https 中不能发 http 请求。因为后端部署在 9001 端口，没有 http
 
 之后打算开始做监管模块，因为任务模块要考虑到与客户和平台的数据交互，现在还没有定下数据库的格式，所以还很难下手。监管模块只考虑制造商的制造资源，但也没定具体的数据结构，就先参考首页的 dashboard 做一个前端的设计。
 
-![7](./7.jpg)
+![7](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/FirstVueSpringboot/7.jpg)

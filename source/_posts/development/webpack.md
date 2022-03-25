@@ -6,7 +6,7 @@ tags:
   - Webpack
 categories:
   - 开发
-cover: /assets/covers/webpack.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/webpack.jpg
 ---
 
 **本文简述了 webpack 中的一些核心概念，包括基础模块的功能介绍和配置方法。**

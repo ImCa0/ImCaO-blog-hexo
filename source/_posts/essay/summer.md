@@ -6,7 +6,7 @@ tags:
   - 折腾
 categories:
   - 随笔
-cover: /assets/covers/summer.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/summer.jpg
 ---
 
 ## 疫情

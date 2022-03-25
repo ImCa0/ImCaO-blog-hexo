@@ -1,27 +1,27 @@
 @font-face {
   font-family: ZhuZiAYuanJWD;
-  src: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.1/fonts/ZhuZiAWan.ttf);
+  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/fonts/ZhuZiAWan.ttf);
   font-display: swap;
   font-weight: lighter;
 }
 
 @font-face {
   font-family: HarmonyOS_Regular;
-  src: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.1/fonts/HarmonyOS_Regular.ttf);
+  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/fonts/HarmonyOS_Regular.ttf);
   font-display: swap;
   font-weight: lighter;
 }
 
 @font-face {
   font-family: ptsm;
-  src: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.1/fonts/ptsm.ttf);
+  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/fonts/ptsm.ttf);
   font-display: swap;
   font-weight: lighter;
 }
 
 @font-face {
   font-family: Chalkboard_SE;
-  src: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.1/fonts/ChalkboardSE-Regular.ttf);
+  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/fonts/ChalkboardSE-Regular.ttf);
   font-display: swap;
   font-weight: lighter;
 }

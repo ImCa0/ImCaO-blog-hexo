@@ -5,7 +5,7 @@ tags:
   - 树
 categories:
   - 算法
-cover: /assets/covers/LeetCode.png
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/LeetCode.png
 ---
 
 ## 原题
@@ -14,7 +14,7 @@ cover: /assets/covers/LeetCode.png
 
 ### 示例：
 
-![InvertBinaryTree](./problem.jpg)
+![InvertBinaryTree](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/InvertBinaryTree/problem.jpg)
 
 ```
 输入: root = [4,2,7,1,3,6,9]
@@ -29,13 +29,13 @@ cover: /assets/covers/LeetCode.png
 
 为什么说梗越大呢。Max Howell 大神在推特上吐槽自己因为没写出翻转二叉树，被谷歌拒了。
 
-![twitter](./twitter.png)
+![twitter](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/InvertBinaryTree/twitter.png)
 
 而就在第二天 LeetCode 就加入了这道题，并把难度定位 Easy。
 
-![easy](./easy.jpg)
+![easy](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/InvertBinaryTree/easy.jpg)
 
-![leetcode](./leetcode.jpg)
+![leetcode](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/InvertBinaryTree/leetcode.jpg)
 
 ## 解题思路
 

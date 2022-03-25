@@ -5,7 +5,7 @@ tags:
   - 生活
 categories:
   - 随笔
-cover: /assets/covers/chunfen.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/chunfen.jpg
 ---
 
 春分了，白天开始比夜晚长了。

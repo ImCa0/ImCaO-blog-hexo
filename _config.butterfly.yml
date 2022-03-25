@@ -491,7 +491,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://npm.elemecdn.com/imcao-blog-hexo@1.0.0/img/bg.jpg)
+background: url(https://npm.elemecdn.com/imcao-hexo/source/assets/img/bg.jpg)
 
 # Footer Background
 footer_bg: true
@@ -831,7 +831,7 @@ inject:
   head:
     - <link rel="stylesheet" href="/assets/css/font.css">
     - <link rel="stylesheet" href="/assets/css/custom.css" media="defer" onload="this.media='all'">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    - <link rel="stylesheet" href="https://npm.elemecdn.com/swiper/swiper-bundle.min.css">
 		- <link rel="stylesheet" href="/assets/css/bb-index.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
@@ -842,7 +842,7 @@ inject:
 # 非必要請不要修改
 CDN:
   # custom
-  vue: https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js  # vue.js依赖
+  vue: https://npm.elemecdn.com/vue@2.6.14/dist/vue.min.js  # vue.js依赖
   
   # main
   main_css:
@@ -943,7 +943,7 @@ electric_clock:
     index: 0
   loading: https://npm.elemecdn.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
   clock_css: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.css
-  clock_js: https://npm.elemecdn.com/imcao-blog-hexo@1.0.3/js/clock.min.js
+  clock_js: https://npm.elemecdn.com/imcao-hexo/source/assets/scripts/clock.min.js
   ip_api: https://pv.sohu.com/cityjson?ie=utf-8
 
 gitcalendar:

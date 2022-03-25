@@ -5,7 +5,7 @@ tags:
   - 滑动窗口
 categories:
   - 算法
-cover: /assets/covers/LeetCode.png
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/LeetCode.png
 copyright_author: 负雪明烛
 copyright_url: https://leetcode-cn.com/problems/max-consecutive-ones-iii/solution/fen-xiang-hua-dong-chuang-kou-mo-ban-mia-f76z/
 ---
@@ -64,7 +64,7 @@ copyright_url: https://leetcode-cn.com/problems/max-consecutive-ones-iii/solutio
 ## 示例
 
 以 `A= [1,1,1,0,0,0,1,1,1,1,0], K = 2` 为例，下面的动图演示了滑动窗口的两个指针的移动情况。
-![sliding-window](./sliding-window.gif)
+![sliding-window](https://npm.elemecdn.com/imcao-hexo/source/_posts/algorithm/LongestOnes/sliding-window.gif)
 
 ## 代码
 

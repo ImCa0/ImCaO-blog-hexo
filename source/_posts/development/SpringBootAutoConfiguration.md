@@ -5,7 +5,7 @@ tags:
   - Spring Boot
 categories:
   - 开发
-cover: /assets/covers/SpringBootAutoConfiguration.png
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/SpringBootAutoConfiguration.png
 ---
 
 ## 注解分析
@@ -120,13 +120,13 @@ protected AutoConfigurationEntry getAutoConfigurationEntry(AnnotationMetadata an
 
 通过 Debug 模式可以看到，在 Spring Boot 应用启动时会自动从 META-INF/spring.factories 中获取需要自动注册的配置类，当前项目共 131 个。这 131 个配置类存在于 org.springframework.boot.autoconfigure 包下，并都以 XXXAutoConfiguration 命名。
 
-![configuration](./config.png)
+![configuration](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/SpringBootAutoConfiguration/config.png)
 
 ## 自动配置条件
 
 在 Debug 模式下，可以获取最终自动配置的所有类，发现从全部的 131 个减少到了 24 个。
 
-![filter](./filter.png)
+![filter](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/SpringBootAutoConfiguration/filter.png)
 
 这是因为 Spring Boot 将相应功能模块未开启的配置类筛选掉了，返回了真正需要自动配置的类名。
 

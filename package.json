@@ -1,7 +1,6 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
+  "name": "imcao-hexo",
+  "version": "1.0.1",
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
