@@ -2,7 +2,7 @@
 title: 友人帐
 date: 2022-01-17 21:48:11
 type: "link"
-flink_url: https://npm.elemecdn.com/imcao-hexo/source/link.json
+flink_url: https://www.imcao.cn/link.json
 ---
 
 ## 友链申请 🚀
