@@ -5,7 +5,7 @@ tags:
   - 歌曲
 categories:
   - 投币收藏
-cover: /assets/covers/LongAfter.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/LongAfter.jpg
 description: 邓紫棋
 copyright: false
 ---
