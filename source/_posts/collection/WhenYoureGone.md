@@ -5,7 +5,7 @@ tags:
   - 歌曲
 categories:
   - 投币收藏
-cover: /assets/covers/WhenYoureGone.jpg
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/WhenYoureGone.jpg
 description: Avril Lavigne
 copyright: false
 ---

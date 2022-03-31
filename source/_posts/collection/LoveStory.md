@@ -1,17 +1,17 @@
 ---
-title: 我怀念的
-date: 2021-10-29
+title: Love Story
+date: 2022-03-31 11:03:31
 tags:
   - 歌曲
 categories:
   - 投币收藏
-cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/whatimiss.jpg
-description: 孙燕姿
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/LoveStory.png
+description: 《Love Story》是一首由美国乡村音乐女歌手泰勒·斯威夫特（Taylor Swift）创作和演唱的乡村流行歌曲。
 copyright: false
 ---
 
 <iframe
-  src="https://player.bilibili.com/player.html?aid=806315313&bvid=BV1Z34y1m7jC&cid=430097023&page=1"
+  src="https://player.bilibili.com/player.html?aid=767113619&bvid=BV1Tr4y1B7jP&cid=541649776&page=1"
   scrolling="no"
   border="0"
   frameborder="no"
