@@ -1,0 +1,7 @@
+bottom:
+  - class_name: portal
+    id_name:
+    name: 传送
+    icon: fa-regular fa-person-to-portal
+    order:
+    html: <div style="display:flex;justify-content:space-between;align-items:center;line-height:0"> <div style="width:48%"> <a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://img.foreverblog.cn/wormhole_4_tp.gif" alt="" style="width:100%" title="穿梭虫洞-随机访问十年之约友链博客" /> </a> </div> <div style="width:48%"> <a href="https://travellings.link/" target="_blank"> <img src="https://travellings.link/assets/logo.svg" alt="" style="width:100%" title="开往-友链接力" /> </a> </div> </div>

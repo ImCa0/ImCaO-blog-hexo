@@ -146,6 +146,12 @@
         "link": "https://www.foreverblog.cn/go.html",
         "avatar": "https://npm.elemecdn.com/imcao-hexo/source/assets/img/wormhole.gif",
         "descr": "一个人的寂寞，一群人的狂欢。"
+      },
+      {
+        "name": "开往",
+        "link": "https://travellings.link",
+        "avatar": "https://travellings.link/assets/travelling-dark.png",
+        "descr": "开往下一个世界的列车就要出发了"
       }
     ]
   }
