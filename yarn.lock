@@ -780,6 +780,14 @@
   dependencies:
     "hexo-pagination" "1.0.0"
 
+"hexo-generator-feed@^3.0.0":
+  "integrity" "sha512-Jo35VSRSNeMitS2JmjCq3OHAXXYU4+JIODujHtubdG/NRj2++b3Tgyz9pwTmROx6Yxr2php/hC8og5AGZHh8UQ=="
+  "resolved" "https://registry.npmmirror.com/hexo-generator-feed/-/hexo-generator-feed-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "hexo-util" "^2.1.0"
+    "nunjucks" "^3.0.0"
+
 "hexo-generator-index@^2.0.0":
   "integrity" "sha1-FecfTSjunSFy4td+jR26BIgu3I8="
   "resolved" "https://registry.nlark.com/hexo-generator-index/download/hexo-generator-index-2.0.0.tgz"
@@ -872,7 +880,7 @@
   "resolved" "https://registry.nlark.com/hexo-theme-landscape/download/hexo-theme-landscape-0.0.3.tgz"
   "version" "0.0.3"
 
-"hexo-util@^2.0.0", "hexo-util@^2.4.0", "hexo-util@^2.5.0":
+"hexo-util@^2.0.0", "hexo-util@^2.1.0", "hexo-util@^2.4.0", "hexo-util@^2.5.0":
   "integrity" "sha1-3lY1NBEWuiVjp4mg6861WodSIa0="
   "resolved" "https://registry.nlark.com/hexo-util/download/hexo-util-2.5.0.tgz"
   "version" "2.5.0"
@@ -1318,7 +1326,7 @@
   "resolved" "https://registry.nlark.com/normalize-path/download/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
-"nunjucks@^3.2.1":
+"nunjucks@^3.0.0", "nunjucks@^3.2.1":
   "integrity" "sha1-GzNhUkcpDpTigmO12FXs52VkijE="
   "resolved" "https://registry.npmmirror.com/nunjucks/download/nunjucks-3.2.3.tgz"
   "version" "3.2.3"
