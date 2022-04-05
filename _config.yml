@@ -127,3 +127,6 @@ nofollow:
   field: site
   exclude:
     - 'www.justlaws.cn'
+
+baidusitemap:
+  path: baidusitemap.xml
