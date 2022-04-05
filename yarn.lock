@@ -749,6 +749,11 @@
     "resolve" "^1.11.0"
     "tildify" "^2.0.0"
 
+"hexo-filter-nofollow@^2.0.2":
+  "integrity" "sha512-roIkEIkGOR22EPMoy8iKrufDoAH25LOT5ZeVXVLavEpM757Y96kfUhyathryMLXr326EURffgkZAKsVf3EDl0A=="
+  "resolved" "https://registry.npmmirror.com/hexo-filter-nofollow/-/hexo-filter-nofollow-2.0.2.tgz"
+  "version" "2.0.2"
+
 "hexo-front-matter@^2.0.0":
   "integrity" "sha1-A/Oanu2xbFRI27O+x9/yxOIkAGw="
   "resolved" "https://registry.npmmirror.com/hexo-front-matter/download/hexo-front-matter-2.0.0.tgz"
