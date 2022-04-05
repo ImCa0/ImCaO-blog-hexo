@@ -119,3 +119,11 @@ feed:
   icon:
   autodiscovery: true
   template:
+
+# hexo-filter-nofollow
+## Docs: https://github.com/hexojs/hexo-filter-nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'www.justlaws.cn'
