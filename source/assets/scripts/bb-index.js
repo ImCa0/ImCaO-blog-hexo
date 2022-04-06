@@ -32,9 +32,11 @@ function getbbdata() {
 var generateBBHtml = (array) => {
   var $dom = document.querySelector("#bber-talk");
   var result = "";
+  // 只显示一条
+  var showLength = 1;
 
   if (array.length) {
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length && i < showLength; i++) {
       var itemcontent = array[i].content;
       var newitemcontent = itemcontent.replace(/<img src="(https?:[^:<>"]*\/)([^:<>"]*)(\.((png!thumbnail)|(png)|(jpg)|(webp)|(jpeg)|(gif))(!blogimg)?)" >/g, " [图片] ");
       result += `<div class='li-style swiper-slide'>${newitemcontent}</div>`;
@@ -47,6 +49,8 @@ var generateBBHtml = (array) => {
   $dom.innerHTML = result;
   window.lazyLoadInstance && window.lazyLoadInstance.update();
   window.pjax && window.pjax.refresh($dom);
+  // 只显示一条 无需动画
+  /*
   var swiper = new Swiper(".swiper-container", {
     direction: "vertical", // 垂直切换选项
     loop: true,
@@ -55,6 +59,7 @@ var generateBBHtml = (array) => {
       disableOnInteraction: true,
     },
   });
+  */
 };
 var bbInit = () => {
   // console.log('运行')
