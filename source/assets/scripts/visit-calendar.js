@@ -276,5 +276,5 @@ var loading_visit = (color) => {
   var visit_color = ["#d7dbe2", "#fdcdec", "#fc9bd9", "#fa6ac5", "#f838b2", "#f5089f", "#c4067e", "#92055e", "#540336", "#48022f", "#30021f"];
   append_div_visitcalendar(visit_container, loading_visit("#49b1f5"));
   // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
-  visit_calendar("16350363", "121.0f40a799c507691e1cdd0173d3ad9cb6.YHKFk27FwgwTF6hOL_Fj0b-Q8z5trzyrCZTS-FO.9SNnDw", "pv_count", visit_color);
+  visit_calendar("16350363", "121.e86319c0d8d16a3a78447bcdcdf61bda.Y3rgaa6Lwr2V6i8xhLYuuiYNm90t7R0WgAuKsST._PNBMQ", "pv_count", visit_color);
 })();

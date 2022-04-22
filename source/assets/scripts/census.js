@@ -5,7 +5,7 @@ var date = new Date();
 var mon = date.getMonth() + 1;
 var day = date.getDate();
 const endDate = date.getFullYear() + (mon < 10 ? "0" + mon : mon) + (day < 10 ? "0" + day : day); // 结束日期
-const accessToken = "121.0f40a799c507691e1cdd0173d3ad9cb6.YHKFk27FwgwTF6hOL_Fj0b-Q8z5trzyrCZTS-FO.9SNnDw"; // accessToken
+const accessToken = "121.e86319c0d8d16a3a78447bcdcdf61bda.Y3rgaa6Lwr2V6i8xhLYuuiYNm90t7R0WgAuKsST._PNBMQ"; // accessToken
 const siteId = "16350363"; // 网址 id
 const dataUrl = "https://baidu-tongji-api.vercel.app/api?access_token=" + accessToken + "&site_id=" + siteId;
 const metrics = "pv_count"; // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
