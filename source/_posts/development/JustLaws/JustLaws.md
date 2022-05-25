@@ -6,7 +6,8 @@ tags:
   - Vuepress
 categories:
   - 我的开发
-cover: https://npm.elemecdn.com/imcao-hexo@1.0.3/source/_posts/development/JustLaws/exhibition.png
+  - JustLaws
+cover: https://npm.elemecdn.com/imcao-hexo/source/_posts/development/JustLaws/JustLaws/exhibition.png
 sticky: 100
 ---
 
@@ -14,7 +15,7 @@ sticky: 100
 
 网站大概长下面那个样子，链接在此：https://www.justlaws.cn
 
-![网站展示图](https://npm.elemecdn.com/imcao-hexo@1.0.3/source/_posts/development/JustLaws/exhibition.png)
+![网站展示图](https://npm.elemecdn.com/imcao-hexo/source/_posts/development/JustLaws/JustLaws/exhibition.png)
 
 ## 💡 想法
 
@@ -51,7 +52,11 @@ sticky: 100
 
 目前收录法律有 9 部，每个大类都有至少一部。后续将保持每周一到两部法律的新增收录，如果有时间的话会更多。（用不了三四年就能更完 😂）
 
-如果有小伙伴希望收录某一部法律，可以直接在下面留言或者去 [GitHub](https://github.com/ImCa0/just-laws) 提交 issue，我会在一周内收录它。也欢迎有能力的小伙伴自行收录并提交 pr。
+## 👾 申请互动
+
+如果有小伙伴希望收录某一部法律，可以直接在下面留言或者去 [GitHub](https://github.com/ImCa0/just-laws) 提交 issue，我会在一周内收录它。
+
+也欢迎有能力的小伙伴自行收录并提交 pr，详细收录流程和格式请参考[这里](/2022/05/11/ContributionGuide/)，感谢贡献！
 
 ## 📝 开发计划
 
