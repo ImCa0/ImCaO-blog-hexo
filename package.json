@@ -1,6 +1,6 @@
 {
   "name": "imcao-hexo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",

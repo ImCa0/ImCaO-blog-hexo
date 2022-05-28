@@ -1,17 +1,17 @@
 ---
-title: 很久以后
-date: 2021-11-02
+title: 7 Years
+date: 2022-05-27 21:15:15
 tags:
   - 歌曲
 categories:
   - 投币收藏
-cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/LongAfter.jpg
-description: 邓紫棋
+cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/7Years.jpg
+description: Once I was seven years old.
 copyright: false
 ---
 
 <iframe
-  src="https://player.bilibili.com/player.html?aid=92127944&bvid=BV1c7411N7a7&cid=157300752&page=1"
+  src="https://player.bilibili.com/player.html?aid=213952979&bvid=BV1Na411J7Jh&cid=718091836&page=1"
   scrolling="no"
   border="0"
   frameborder="no"
