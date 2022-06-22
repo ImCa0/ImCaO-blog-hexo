@@ -5,7 +5,7 @@ tags:
   - 歌曲
 categories:
   - 投币收藏
-cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/whatimiss.jpg
+cover: source@/assets/covers/whatimiss.jpg
 description: 孙燕姿
 copyright: false
 ---
