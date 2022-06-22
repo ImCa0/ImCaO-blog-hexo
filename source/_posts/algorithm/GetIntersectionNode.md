@@ -5,7 +5,7 @@ tags:
   - 链表
 categories:
   - 算法刷题
-cover: source@/assets/covers/YourName.jpg
+cover: YourName.jpg
 copyright_author: 皮卡澄
 copyright_url: https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/solution/ni-de-ming-zi-ni-bian-cheng-wo-wo-bian-c-q56d/
 ---

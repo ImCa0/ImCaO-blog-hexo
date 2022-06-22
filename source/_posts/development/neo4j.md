@@ -8,7 +8,7 @@ tags:
   - 科研
 categories:
   - 我的开发
-cover: source@/assets/covers/neo4j.svg
+cover: neo4j.svg
 ---
 
 ## 简介
@@ -62,7 +62,7 @@ public class ResourceType {
 
 上述例子中定义的关系如下图所示，黄点代表制造资源类型，绿点代表属性。
 
-![@Relationship 创建的关系](source@/_posts/development/neo4j/relationship.jpg)
+![@Relationship 创建的关系](source@/relationship.jpg)
 
 ### 关系实体类编写
 
@@ -117,7 +117,7 @@ public class HasProperty {
 
 因此，以上代码实际上创建了一个从 Resource 指向 Property 的关系，并且该关系拥有一些属性。
 
-![复杂关系](source@/_posts/development/neo4j/relationship-domain.jpg)
+![复杂关系](source@/relationship-domain.jpg)
 
 ### 继承 Neo4jRepository 接口
 

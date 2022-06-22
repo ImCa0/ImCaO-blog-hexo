@@ -7,7 +7,7 @@ tags:
 categories:
   - 我的开发
   - JustLaws
-cover: source@/_posts/development/JustLaws/JustLaws/exhibition.png
+cover: exhibition.png
 sticky: 100
 ---
 
@@ -15,7 +15,7 @@ sticky: 100
 
 网站大概长下面那个样子，链接在此：https://www.justlaws.cn
 
-![网站展示图](source@/_posts/development/JustLaws/JustLaws/exhibition.png)
+![网站展示图](source@/exhibition.png)
 
 ## 💡 想法
 

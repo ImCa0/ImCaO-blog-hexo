@@ -7,14 +7,14 @@ tags:
   - 博客
 categories:
   - 我的开发
-cover: source@/assets/covers/footprint.jpg
+cover: footprint.jpg
 ---
 
 ## ECharts
 
 前两天开始做云平台的监管模块了，就是一大堆的图表。vue-element-admin 这个模板提供了很多图表的案例，都是基于 ECharts.js 开发的。
 
-![1](source@/_posts/development/echarts/1.jpg)
+![1](source@/1.jpg)
 
 ECharts 是百度公司开发的一个基于 JavaScript 的开源可视化图表库，目前正在 Apache 开源基金会孵化中。[Apache ECharts](https://echarts.apache.org/zh/index.html)
 
@@ -30,7 +30,7 @@ ECharts 的功能非常强大，几乎可以用它制作任意类型的图表，
 
 后来想起来之前云平台用的 ECharts 不就可以用来做地图吗，一查果然有用它来做足迹的案例，就照着教程开始做。下了 echarts.js 和 china.js 两个文件，然后把自己的数据写在 scripts 里，本地一运行成功了，然后再把三个 js 引入到 MarkDown 里，一部署却报错了，`ECharts is not loaded` 想了半天不知道什么问题，把三个文件合一起了再一试就成功了，MarkDown 里解析 js 的顺序可能跟 HTML 不太一样。
 
-![2](source@/_posts/development/echarts/2.jpg)
+![2](source@/2.jpg)
 
 [足迹](https://www.imcao.cn/footprint)
 
