@@ -5,7 +5,7 @@ tags:
   - 生活
 categories:
   - 闲聊杂谈
-cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/xiazhi.jpg
+cover: source@/assets/covers/xiazhi.jpg
 ---
 
-![夏至](https://npm.elemecdn.com/imcao-hexo/source/assets/covers/xiazhi.jpg)
+![夏至](source@/assets/covers/xiazhi.jpg)

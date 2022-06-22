@@ -25,7 +25,7 @@ flink_url: https://www.imcao.cn/link.json
 
 ### 方式一：修改 GitHub [友链文件](https://github.com/ImCa0/ImCaO-blog-hexo/edit/master/source/link.json)，并提交 PR（快速）
 
-[![github](https://npm.elemecdn.com/imcao-hexo/source/link/github.png)](https://github.com/ImCa0/ImCaO-blog-hexo/edit/master/source/link.json)
+[![github](source@/link/github.png)](https://github.com/ImCa0/ImCaO-blog-hexo/edit/master/source/link.json)
 
 ### 方式二：提交评论并包含以下信息
 

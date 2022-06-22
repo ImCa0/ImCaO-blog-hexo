@@ -7,7 +7,7 @@ tags:
   - 乔纳森·布洛
 categories:
   - 好文转载
-cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/preventing-the-collapsing-of-civilization.png
+cover: source@/assets/covers/preventing-the-collapsing-of-civilization.png
 copyright_author: 这样重这样轻
 copyright_url: https://www.gcores.com/articles/110509
 ---
@@ -33,15 +33,15 @@ _以下是正文。_
 
 演讲从 1957 年苏联发射 Sputnik 上天引发的美苏太空争霸谈起，回顾了首次卫星发射、首次宇航员上天，以及首次登月的过程。在 1962 年 9 月肯尼迪总统在一次国会演讲中宣称我们要在这个十年结束之前实现登月。结果 1969 年阿波罗 11 号实现了这个目标。Blow 的要点在于：人类（这里指美国）从一无所知，到实现登月只用了 12 年。然而从那时之后，人类的载人航天事业很大程度上停滞，甚至出现了倒退。这是不是很令人遗憾？
 
-![1](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/1.png)
+![1](source@/_posts/share/preventing-the-collapsing-of-civilization/1.png)
 
 Blow 播放了一段后来解密的阿波罗 11 号现场纪录片片段，那种震撼的感觉难以名状，只有看的人能了解其中直观的『退步感』。（编者感慨：我们用真实的科幻交换了手中的 iPhone。）
 
-![2](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/2.png)
+![2](source@/_posts/share/preventing-the-collapsing-of-civilization/2.png)
 
-![3](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/3.png)
+![3](source@/_posts/share/preventing-the-collapsing-of-civilization/3.png)
 
-![4](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/4.png)
+![4](source@/_posts/share/preventing-the-collapsing-of-civilization/4.png)
 
 然后 Blow 播放了一段 Elon Musk 的 TED 访谈，其中 Elon 指出：我们一定要意识到：不同于可持续能源的未来是必然的，Spacefare civilization（多星球文明）绝对不是必然会发生的（它需要巨大的努力）。1969 年人类可以登月，然后人类只能用航天飞机把人送到近地轨道。然后航天飞机退役，近地轨道也没法送上去了——连起来看，趋势是向着 0 倒退。这和人们对于“科技当然显然必然自动地向前进步”这样的信念相违背。
 
@@ -53,21 +53,21 @@ Elon 的火箭创业公司则非常成功，他们的目标是 2024 年重新实
 
 第一个是 Lycurgus Cup，公元 300 年。从正面看它的反光是青色的，透光来看，则呈现为红色。原因是其银和金的颗粒体积非常小，小到 50-70 纳米，如此之小以至于物理放大镜看不见它们，想观测需要用电子显微镜。然后西罗马帝国覆灭，后人忘记了这个工艺。
 
-![5](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/5.png)
+![5](source@/_posts/share/preventing-the-collapsing-of-civilization/5.png)
 
 很多人认为这就是扯淡，当时的人并不知道其任何原理只是误打误撞做出了这些东西。Blow 则认为有如此观点的人显然没有用心亲手打磨过任何东西，否则他们一定会明白，达到这样水平的结果，是不可能通过偶然和运气的，对于工艺的掌握必然在不断迭代过程中达到了非常高的水平，它才有任何可能出现。比如这个图案中人的身体的肉红色，肯定是费劲千辛万苦不断改进实现出来的。这就是一种材料科学。
 
-![6](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/6.png)
+![6](source@/_posts/share/preventing-the-collapsing-of-civilization/6.png)
 
 然后 Blow 提到了拜占庭的喷火筒。拜占庭的战船上安装了这种金属喷管，喷出某种成分的“水扑不灭”的有机物燃烧导致的火焰，焚毁敌人船只。这是拜占庭帝国的国家机密，它在帝国灭亡之前就被遗忘，原因不明，具体实现方式已经不可考证。
 
 第三个例子是机械日历，一种安提凯希拉装置（Antikythera Mechanism），1901 年于希腊安提凯特拉岛上的一艘古船残骸中被发现的随船沉没 2100 余年的钟形装置。这个机械日历的实际模型被复原为一段动画（自己看视频，语言无法描述），它的精密程度是高档机械手表的范畴。它的存在意味着背后多么复杂的一整套制造能力呢？
 
-![7](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/7.png)
+![7](source@/_posts/share/preventing-the-collapsing-of-civilization/7.png)
 
-![8](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/8.png)
+![8](source@/_posts/share/preventing-the-collapsing-of-civilization/8.png)
 
-![9](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/9.png)
+![9](source@/_posts/share/preventing-the-collapsing-of-civilization/9.png)
 
 这样的例子还有很多，就不说了，Blow 这时候放了地动仪的图片。要点是：在人类历史上，杰出的科技被完全遗忘，这件事经常发生。当代也一样。
 
@@ -79,7 +79,7 @@ Bob 去找 TI 质询，本来以为对方会说“那是你们不知道怎么使
 
 接下来 Blow 给出了历史中文明灭亡的实例，来自于 Eric Clive 的一个演讲，题目是《公元前 1700 年的文明灭亡》，具体来说是青铜器时代晚期，爱琴海，古埃及，塞浦路斯，迈锡尼，赫梯，古巴比伦等。这一圈围绕在美索不达米亚平原和地中海一带的文明曾经形成了一个非常复杂的贸易网络。在下图中，每个节点是一个文明，不是每一个都能和每一个贸易，但通过中间节点，所有贸易都达到非常优化的效率。
 
-![10](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/10.png)
+![10](source@/_posts/share/preventing-the-collapsing-of-civilization/10.png)
 
 这一点非常重要，因为青铜作为国防和生产的重要资料，非常难以制造。你需要用锡和铜一起生产。铜产地比较少，比如塞浦路斯岛。而锡则更难找，而且离铜产地非常远，比如阿富汗。而这些文明需要把它们运到一起以生产青铜。
 
@@ -97,13 +97,13 @@ Blow 的要点是：软件正在倒退，而人类空前依赖软件。尽管，
 
 这让 90 年代电脑销售的一个常见推销语“五个 9”（指，本设备可以 99.999%时间稳定运行）成为今日的讽刺。Blow 的电脑连两个 9 都没有。
 
-![11](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/11.png)
+![11](source@/_posts/share/preventing-the-collapsing-of-civilization/11.png)
 
 对于这个问题，软件行业的普遍答案是：市场不会为更好的稳定性买单。Blow 则认为：对于一个从未提供出足够稳健的产品的行业，为什么会有人会相信它『能』？
 
 接下来，Blow 从正面描述了软件的结构：抽象层次的序列。机器语言、汇编语言、Fortran/C/C++、C#/Haskell/Javascript……在这个序列里，绝大多数工程师在最高抽象层次进行工作，因为这是“聪明、省力、高效率的”。在这个抽象从低到高的序列里的某些位置，问题就出在这里。Blow 认为，全行业的高抽象层次工作，多数人的“高效率”的另一面，是失去（或者从未拥有过）能力。考虑 Facebook 作为一个软件的功能增加，和它要多雇佣的成千上万的工程师，二者相除得到的平均每人的价值创造是趋近于零的。这和“抽象层次越高效率越高”明显矛盾。
 
-![12](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/12.png)
+![12](source@/_posts/share/preventing-the-collapsing-of-civilization/12.png)
 
 Blow 给出的对比，是 UNIX 发明者 Ken Thompson 的一个演讲片段。他回忆道他趁老婆孩子出去度假，用了三个礼拜写了三个东西（编辑器、编译器、软硬件交互层或者叫操作系统），做出了 UNIX。现场爆发笑声和掌声——当今程序员可没有这种效率。而 Blow 认为这是个悲剧，它并不好笑。今天软件显没有在进步，它的鲁棒性和生产力都在衰退。
 
@@ -111,15 +111,15 @@ Blow 从图形计算的角度给出了一些“最最基本的，你不能直接
 
 更可怕的是，你不能直接编写一个独立程序进行编译和 linking。微软为了能让人这么做，专门设计了一个 vswhere 的软件。
 
-![13](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/13.png)
+![13](source@/_posts/share/preventing-the-collapsing-of-civilization/13.png)
 
 现在有一种叫做 LSP 的东西，开源的语言服务器协定。在 Blow 看来它基本上是一种更复杂、更费劲的编写和调用库的方式，而其满足的需求都是非常基本的操作，比如在你的编辑器里临时起意，查看一个变量的特征或者类型，LSP 给你提供一个工具条，或者鼠标点击直接查询的功能。为了实现这个，你需要一个标准化服务跑在服务器上，好让你的编辑器和服务器用 socket 交互——为了使用方便，你把本地的、单一的编程工作置于分布式的系统之中。
 
-![14](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/14.png)
+![14](source@/_posts/share/preventing-the-collapsing-of-civilization/14.png)
 
 这样的做法推而广之，你依赖了越来越多的库，库又依赖了越来越多的库，关键是这些库/服务本身可能是在变化的、并且没有被中心化地存储和管理，这样一来我们就陷入了无穷无尽的 debug 的、重启服务的、互相同步的……我们自身所不能掌握的问题海洋之中。
 
-![15](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/15.png)
+![15](source@/_posts/share/preventing-the-collapsing-of-civilization/15.png)
 
 现在大家竟然在积极主动建设着这样一个东西。程序员们忙着把简单事情复杂化的同时……
 
@@ -145,7 +145,7 @@ Blow 认为，显而易见的是，复杂性越高，我们承受灾难，或者
 
 曾经的游戏，是关于如何榨干性能，将机器的潜力推至极限的。推至极限，要求我们透彻理解机器本身，这就自然导致我们倾向于做出非常鲁棒的程序。
 
-![16](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/16.png)
+![16](source@/_posts/share/preventing-the-collapsing-of-civilization/16.png)
 
 今天整个行业转向 Unity 和 Unreal。自己写引擎的人越来越少。一整代程序员从学习到工作，一直在写支离破碎的 C#片段，放在 Unity 的这里那里，从来没写过系统性的，或者底层的程序。这本身倒没什么，它缩短开发时间，提高个人效率，缩短游戏开发时间。但这意味着放弃，对其他能力的放弃，对整体性知识的放弃。
 
@@ -153,13 +153,13 @@ Blow 说，割裂性的分工没问题，但是如果所有人都这样分工，
 
 游戏开发者社群的情况很像阿西莫夫的《基地》：我们有一群人知道怎么用电脑编程、也有一群人精通嵌入式系统/高性能计算这些事。当很多程序败坏、丢失、难以维护的时候，我们这群人的知识可以重建它们——但我（Blow）真的不确定，我们是否有足够多的底层人才，以及对底层充分了解的高层人才，能做好系统底层的工作。也许，我们需要一个新的『基地』（foundation，也有基础的意思）。不好意思，剧透了。
 
-![17](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/17.png)
+![17](source@/_posts/share/preventing-the-collapsing-of-civilization/17.png)
 
 说回到青铜时代的文明失落，无数历史显示了一种现象：当只有精英阶层可以读和写的时候，很多能力无法普及，文明变得脆弱——普通人也主观上不想学习那些。今天的我们，几乎没有人能理解自己的程序跑着的时候，CPU 里正在发生什么。这就是脆弱。
 
 如果青铜器时代那个程度的知识都会失落，那面对我们现在如此复杂的系统，我们怎么能相信它的存续和发展？各种各样的生存压力随时可能爆发，考验我们的软件世界。比如气候变迁。比如国际争端，比如一些国家切断国际互联网了，比如中国不给我们加工芯片了。别笑，现在有些国家的程序员连上 stackoverflow 复制粘贴代码都费劲。这些事情单独来看肯定都不至于伤害我们的文明，系统复杂到今天程度，抗折腾能力会很差。
 
-![18](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/18.png)
+![18](source@/_posts/share/preventing-the-collapsing-of-civilization/18.png)
 
 正如 Elon Musk 所言，技术会自然地退步。我们要警惕，要对抗，就一定要在每一个层级上简化：硬件、操作系统、库、应用层面的代码、网络、编译、debug、内容分发、人机交互。而这一切又完全可以如此简单，因为它们的现状如此荒谬！
 
@@ -167,7 +167,7 @@ Blow 说，割裂性的分工没问题，但是如果所有人都这样分工，
 
 大家都充分认识到复杂之荒谬，简单之美——简化可以让事情变得更好。
 
-![19](https://npm.elemecdn.com/imcao-hexo/source/_posts/share/preventing-the-collapsing-of-civilization/19.png)
+![19](source@/_posts/share/preventing-the-collapsing-of-civilization/19.png)
 
 退一万步讲，也许你认为软件不会让文明倒塌。没关系，咱们就只从自身利益出发——所有程序员都每天气呼呼的工作着，因为他们知道自己大量的时间精力用在没有意义的荒唐事上，而不是真正有趣的，创造性的事上。如果我们不改变做事的方式，未来的程序员工作会更加庸俗不堪，就跟没有 SpaceX 时候的美国航天事业一样。
 

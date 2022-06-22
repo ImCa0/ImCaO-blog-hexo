@@ -5,7 +5,7 @@ tags:
   - 歌曲
 categories:
   - 投币收藏
-cover: https://npm.elemecdn.com/imcao-hexo/source/assets/covers/7Years.jpg
+cover: source@/assets/covers/7Years.jpg
 description: Once I was seven years old.
 copyright: false
 ---

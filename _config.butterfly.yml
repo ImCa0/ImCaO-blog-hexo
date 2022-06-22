@@ -954,3 +954,7 @@ gitcalendar:
   user: ImCa0
   apiurl:  # 留空为默认公共API
   color: "['#ebedf0', '#CBE3FF', '#79B7FF', '#83BCFF', '#59A6FF', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
+
+replace_link:
+  alias: 'source@'
+  replacement: https://npm.elemecdn.com/imcao-hexo/source
