@@ -7,7 +7,7 @@ tags:
 categories:
   - 我的开发
   - JustLaws
-cover: source@/assets/covers/ContributionGuide.png
+cover: ContributionGuide.png
 ---
 
 ## 选择法律
@@ -18,11 +18,11 @@ cover: source@/assets/covers/ContributionGuide.png
 
 进入[国家法律法规数据库](https://flk.npc.gov.cn/)，搜索法律原文。此时需要注意，搜索结果中可能包含多个版本，需要选择**时效性为有效，公布日期为最新**的版本。
 
-![搜索结果](source@/_posts/development/JustLaws/ContributionGuide/SearchResult.jpg)
+![搜索结果](source@/SearchResult.jpg)
 
 点击进入阅读页面，选择 WPS 版本，点击下载。
 
-![下载](source@/_posts/development/JustLaws/ContributionGuide/Download.jpg)
+![下载](source@/Download.jpg)
 
 ## 获取代码
 
@@ -32,9 +32,9 @@ cover: source@/assets/covers/ContributionGuide.png
 
 推荐使用 VS Code 打开项目，后续操作快捷键以 VS Code 为例。在法律类型下创建法律名称的文件夹，例如种子法属于经济法，即在 economic 下创建 seed-law 文件夹，文件夹名称请百度该法律的英文对照，使用全小写字母，单词用 `-` 分隔，无需保留 `the People's Republic of China`。
 
-![创建文件](source@/_posts/development/JustLaws/ContributionGuide/CreateFile.jpg)
+![创建文件](source@/CreateFile.jpg)
 
-![文件夹名称](source@/_posts/development/JustLaws/ContributionGuide/Translation.jpg)
+![文件夹名称](source@/Translation.jpg)
 
 在新创建的文件夹下创建名为 `README.md` 的文件。
 
@@ -76,7 +76,7 @@ sidebar: auto
 
 `Ctrl + F` 打开搜索框，打开正则表达式模式，输入 `\n` 搜索换行符，光标回到文档，`Shift + Ctrl + L` 选中所有匹配项，连续按**两次** `回车`，`Shift + Alt + F` 格式化文档。此举操作是为了保证连续两行之间存在一个空行，这样才能在网页上真正分行。
 
-![搜索换行符](source@/_posts/development/JustLaws/ContributionGuide/Search.jpg)
+![搜索换行符](source@/Search.jpg)
 
 搜索框输入 `第[\u4e00-\u9fa5]*章　`，搜索所有二级标题，注意“章”字后的中文空格，防止搜索到正文中的“第X章”。`Shift + Ctrl + L` 选中所有匹配项后，按一次方向键 `←` 将所有光标移动到文字左侧，输入 `## ` 实现二级标题。
 

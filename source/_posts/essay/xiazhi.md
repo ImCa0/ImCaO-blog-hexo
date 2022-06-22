@@ -5,7 +5,7 @@ tags:
   - 生活
 categories:
   - 闲聊杂谈
-cover: source@/assets/covers/xiazhi.jpg
+cover: xiazhi.jpg
 ---
 
-![夏至](source@/assets/covers/xiazhi.jpg)
+![夏至](source@/xiazhi.jpg)

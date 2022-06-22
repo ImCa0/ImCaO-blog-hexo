@@ -8,14 +8,14 @@ tags:
   - InfluxDB
 categories:
   - 我的开发
-cover: source@/assets/covers/framework.jpg
+cover: framework.jpg
 ---
 
 ## 总体架构
 
 总体架构如下图所示，由底层设备适配层、MQTT 消息传输层、InfluxDB 数据持久层和数据调用 API 四部分构成。
 
-![framework](source@/assets/covers/framework.jpg)
+![framework](source@/framework.jpg)
 
 ## 适配层
 
@@ -27,7 +27,7 @@ cover: source@/assets/covers/framework.jpg
 
 要实现 MQTT 协议的消息传输，需要一个 MQTT 消息服务器，以及发送或接收数据需要的 MQTT 客户端。MQTT 消息服务器需要部署在云服务器上，其本身不发布也不订阅数据，而是作为消息的中转站。MQTT 客户端可以进行消息的发布和订阅，并且支持多种语言实现。
 
-![MQTT](source@/_posts/development/framework/MQTT.jpg)
+![MQTT](source@/MQTT.jpg)
 
 设备以边缘节点为单位，通过 MQTT 协议将数据发布到云服务器上。云服务器运营商为腾讯云，配置为 1 核 2 G，带宽 6 M。部署的 MQTT 消息服务器为 [EMQ X](https://www.emqx.com/zh/products/emqx) 开源版本。设备层 MQTT 客户端包含在适配层中，使用 C++ 语言实现消息的发布。
 
@@ -44,7 +44,7 @@ cover: source@/assets/covers/framework.jpg
 - **retention policy**：数据保留策略，用于定时删除过期数据。
 - **series**：具有共同 retention policy，measurement 和 tag 的集合。
 
-![InfluxDB](source@/_posts/development/framework/influxdb.jpg)
+![InfluxDB](source@/influxdb.jpg)
 
 通常来讲，想要把设备数据存储到 InfluxDB 中，需要一个 MQTT 客户端订阅相关的消息主题，然后通过连接数据库、编写 Flux 语言（类似于 SQL 语言，用于操作 InfluxDB 数据库）将数据存入数据库。好在有第三方服务 Telegraf 可以帮助我们快速实现这一系列的操作。
 
@@ -114,4 +114,4 @@ Telegraf 会向 InfluxDB 的 laptop 表中写入一条 tag 为 host: "ImCaO's la
 
 数据查询的 API 初步采用 NodeJS 编写，使用 GET 请求携带 measurement、start、stop、filed 等参数进行查询，以 JSON 格式返回结果。
 
-![API](source@/_posts/development/framework/API.jpg)
+![API](source@/API.jpg)

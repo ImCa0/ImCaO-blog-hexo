@@ -5,7 +5,7 @@ tags:
   - 比赛
 categories:
   - 算法刷题
-cover: source@/assets/covers/LeetCode.png
+cover: LeetCode.png
 ---
 
 ## 前言
@@ -68,7 +68,7 @@ cover: source@/assets/covers/LeetCode.png
 
 然而，就在比赛快结束的时候，我有了一个重大发现，如下：
 
-![1](source@/_posts/algorithm/BiweeklyContest48/1.jpg)
+![1](source@/1.jpg)
 
 这是 66 个测试用例里唯一失败的一个，我想出题人也没想到我会这么想，所以没有放故意针对我的用例吧，那我就来劲了呀！
 

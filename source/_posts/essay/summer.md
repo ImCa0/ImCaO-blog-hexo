@@ -6,7 +6,7 @@ tags:
   - 折腾
 categories:
   - 闲聊杂谈
-cover: source@/assets/covers/summer.jpg
+cover: summer.jpg
 ---
 
 ## 疫情

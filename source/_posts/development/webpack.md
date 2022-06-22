@@ -6,7 +6,7 @@ tags:
   - Webpack
 categories:
   - 我的开发
-cover: source@/assets/covers/webpack.jpg
+cover: webpack.jpg
 ---
 
 **本文简述了 webpack 中的一些核心概念，包括基础模块的功能介绍和配置方法。**

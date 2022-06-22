@@ -5,7 +5,7 @@ tags:
   - 栈
 categories:
   - 算法刷题
-cover: source@/assets/covers/calculate.jpg
+cover: calculate.jpg
 copyright_author: 宫水三叶
 copyright_url: https://leetcode-cn.com/problems/basic-calculator-ii/solution/shi-yong-shuang-zhan-jie-jue-jiu-ji-biao-c65k/
 ---

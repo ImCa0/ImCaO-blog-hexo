@@ -6,7 +6,7 @@ tags:
   - CSS
 categories:
   - 我的开发
-cover: source@/assets/covers/selector.jpg
+cover: selector.jpg
 ---
 
 以下介绍 10 种常用的 CSS 选择器
