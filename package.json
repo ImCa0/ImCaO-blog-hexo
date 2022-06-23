@@ -5,7 +5,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server",
+    "server": "set NODE_ENV=development&&hexo server",
     "commit": "git add . && git commit && npm version patch"
   },
   "hexo": {
