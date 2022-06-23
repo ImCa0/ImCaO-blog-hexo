@@ -1,0 +1,42 @@
+name: Main
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3   
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
+      - run: npm publish
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      NODE_VERSION: '16'
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          submodules: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm install
+      - run: npm run build
+      - uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
+          ARGS: "-rltgoDzvO --delete"
+          SOURCE: "/public/"
+          REMOTE_HOST: "${{ secrets.SERVER_HOST }}"
+          REMOTE_USER: "${{ secrets.USER_NAME }}"
+          TARGET: "/usr/local/nginx/html/blog"
