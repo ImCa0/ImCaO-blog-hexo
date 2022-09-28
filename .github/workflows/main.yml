@@ -29,6 +29,8 @@ jobs:
           REMOTE_USER: "${{ secrets.USER_NAME }}"
           TARGET: "/usr/local/nginx/html/blog"
       - uses: manyuanrong/setup-ossutil@v1.0
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         with:
           endpoint: "oss-cn-hangzhou.aliyuncs.com"
           access-key-id: ${{ secrets.ACCESS_KEY_ID }}
