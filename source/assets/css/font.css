@@ -1,34 +1,34 @@
 @font-face {
   font-family: ZhuZiAYuanJWD;
-  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/fonts/ZhuZiAWan.ttf);
+  src: url(https://cdn.imcao.cn/source/assets/fonts/ZhuZiAWan.ttf);
   font-display: swap;
   font-weight: lighter;
 }
 
 @font-face {
   font-family: HarmonyOS_Regular;
-  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/fonts/HarmonyOS_Regular.ttf);
+  src: url(https://cdn.imcao.cn/source/assets/fonts/HarmonyOS_Regular.ttf);
   font-display: swap;
   font-weight: lighter;
 }
 
 @font-face {
   font-family: ptsm;
-  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/fonts/ptsm.ttf);
+  src: url(https://cdn.imcao.cn/source/assets/fonts/ptsm.ttf);
   font-display: swap;
   font-weight: lighter;
 }
 
 @font-face {
   font-family: Chalkboard_SE;
-  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/fonts/ChalkboardSE-Regular.ttf);
+  src: url(https://cdn.imcao.cn/source/assets/fonts/ChalkboardSE-Regular.ttf);
   font-display: swap;
   font-weight: lighter;
 }
 
 @font-face {
   font-family: "Font Awesome 5 Brands";
-  src: url(https://npm.elemecdn.com/imcao-hexo/source/assets/webfonts/fa-brands-400.ttf);
+  src: url(https://cdn.imcao.cn/source/assets/webfonts/fa-brands-400.ttf);
   font-style: normal;
   font-weight: 400;
   font-display: auto;
