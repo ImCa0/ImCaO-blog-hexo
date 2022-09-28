@@ -6,18 +6,6 @@ on:
       - master
 
 jobs:
-  # publish:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v3   
-  #     - uses: actions/setup-node@v3
-  #       with:
-  #         node-version: 16
-  #         registry-url: https://registry.npmjs.org/
-  #     - run: npm publish
-  #       env: 
-  #         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
   deploy:
     runs-on: ubuntu-latest
     env:
@@ -40,3 +28,10 @@ jobs:
           REMOTE_HOST: "${{ secrets.SERVER_HOST }}"
           REMOTE_USER: "${{ secrets.USER_NAME }}"
           TARGET: "/usr/local/nginx/html/blog"
+      - uses: manyuanrong/setup-ossutil@v1.0
+        with:
+          endpoint: "oss-cn-hangzhou.aliyuncs.com"
+          access-key-id: ${{ secrets.ACCESS_KEY_ID }}
+          access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
+      - name: Deply To OSS
+        run: ossutil cp source oss://imcao-blog/ -rf
