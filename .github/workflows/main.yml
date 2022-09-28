@@ -28,11 +28,3 @@ jobs:
           REMOTE_HOST: "${{ secrets.SERVER_HOST }}"
           REMOTE_USER: "${{ secrets.USER_NAME }}"
           TARGET: "/usr/local/nginx/html/blog"
-      - uses: yizhoumo/setup-ossutil@v1
-        with:
-          ossutil-version: 'latest' # Optional, default to 'latest'
-          endpoint: "oss-cn-hangzhou.aliyuncs.com"
-          access-key-id: ${{ secrets.ACCESS_KEY_ID }}
-          access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
-      - name: deply to OSS
-        run: ossutil cp -rf source oss://imcao-blog/source
