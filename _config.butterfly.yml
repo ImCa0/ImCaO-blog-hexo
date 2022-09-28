@@ -957,4 +957,4 @@ gitcalendar:
 
 replace_link:
   alias: 'source@'
-  replacement: https://www.unpkg.com/imcao-hexo/source
+  replacement: https://cdn.imcao.cn/source
