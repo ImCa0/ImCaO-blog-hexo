@@ -491,7 +491,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://npm.elemecdn.com/imcao-hexo/source/assets/img/bg.jpg)
+background: url(https://cdn.imcao.cn/source/assets/img/bg.jpg)
 
 # Footer Background
 footer_bg: true
@@ -841,94 +841,75 @@ inject:
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 CDN:
-  # custom
-  vue: https://npm.elemecdn.com/vue@2.6.14/dist/vue.min.js  # vue.js依赖
-  
-  # main
-  main_css:
-  main:
-  utils:
+  # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
+  # option: local/jsdelivr/unpkg/cdnjs/custom
+  # Dev version can only choose. ( dev版的主題只能設置為 local )
+  internal_provider: local
 
-  # pjax
-  pjax:
+  # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
+  # option: local/jsdelivr/unpkg/cdnjs/custom
+  # when set it to local, you need to install hexo-butterfly-extjs
+  third_party_provider: jsdelivr
 
-  # comments
-  gitalk:
-  gitalk_css:
-  blueimp_md5:
-  valine:
-  disqusjs:
-  disqusjs_css:
-  utterances:
-  twikoo:
-  waline:
-  giscus:
+  # Add version number to CDN, true or false  
+  version: false
 
-  # share
-  addtoany:
-  sharejs:
-  sharejs_css:
+  # Custom format
+  # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format:
 
-  # search
-  local_search:
-  algolia_js:
-  algolia_search_v4:
-  instantsearch_v4:
+  # custom cdn
+  vue: https://npm.elemecdn.com/vue@2.6.14/dist/vue.min.js
 
-  # math
-  mathjax:
-  katex:
-  katex_copytex:
-  katex_copytex_css:
-  mermaid:
-
-  # count
-  busuanzi:
-
-  # background effect
-  canvas_ribbon:
-  canvas_fluttering_ribbon:
-  canvas_nest:
-
-  lazyload:
-  instantpage:
-  typed:
-  pangu:
-
-  # photo
-  fancybox_css_v4:
-  fancybox_v4:
-  medium_zoom:
-
-  # snackbar
-  snackbar_css:
-  snackbar:
-
-  # effect
-  activate_power_mode:
-  fireworks:
-  click_heart:
-  ClickShowText:
-
-  # fontawesome
-  fontawesomeV6: https://www.imcao.cn/assets/fonts/fontawesome-pro-6.css
-
-  # Conversion between Traditional and Simplified Chinese
-  translate:
-
-  # flickr-justified-gallery
-  flickr_justified_gallery_js:
-  flickr_justified_gallery_css:
-
-  # aplayer
-  aplayer_css:
-  aplayer_js:
-  meting_js:
-
-  # Prism.js
-  prismjs_js:
-  prismjs_lineNumber_js:
-  prismjs_autoloader:
+  option:
+    # main_css:
+    # main:
+    # utils:
+    # translate:
+    # local_search:
+    # algolia_js:
+    # algolia_search_v4:
+    # instantsearch_v4:
+    # pjax:
+    # gitalk:
+    # gitalk_css:
+    # blueimp_md5:
+    # valine:
+    # disqusjs:
+    # disqusjs_css:
+    # twikoo:
+    # waline:
+    # sharejs:
+    # sharejs_css:
+    # mathjax:
+    # katex:
+    # katex_copytex:
+    # mermaid:
+    # canvas_ribbon:
+    # canvas_fluttering_ribbon:
+    # canvas_nest:
+    # lazyload:
+    # instantpage:
+    # typed:
+    # pangu:
+    # fancybox_css_v4:
+    # fancybox_v4:
+    # medium_zoom:
+    # snackbar_css:
+    # snackbar:
+    # activate_power_mode:
+    # fireworks:
+    # click_heart:
+    # ClickShowText:
+    fontawesomeV6: https://cdn.imcao.cn/source/assets/fonts/fontawesome-pro-6.css
+    # flickr_justified_gallery_js:
+    # flickr_justified_gallery_css:
+    # aplayer_css:
+    # aplayer_js:
+    # meting_js:
+    # prismjs_js:
+    # prismjs_lineNumber_js:
+    # prismjs_autoloader:
 
 electric_clock:
   enable: true # 开关
@@ -943,7 +924,7 @@ electric_clock:
     index: 0
   loading: https://npm.elemecdn.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
   clock_css: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.css
-  clock_js: https://npm.elemecdn.com/imcao-hexo/source/assets/scripts/clock.min.js
+  clock_js: https://cdn.imcao.cn/source/assets/scripts/clock.min.js
   ip_api: https://pv.sohu.com/cityjson?ie=utf-8
 
 gitcalendar:
