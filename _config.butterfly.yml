@@ -337,7 +337,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: cloudbase-prepaid-4e5xmp2f9af869
+  envId: https://www.imcao.cn/twikoo-comment
   region:
   visitor: true
   option:
