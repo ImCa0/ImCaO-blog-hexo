@@ -832,7 +832,6 @@ inject:
     - <link rel="stylesheet" href="/assets/css/font.css">
     - <link rel="stylesheet" href="/assets/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="https://npm.elemecdn.com/swiper/swiper-bundle.min.css">
-		- <link rel="stylesheet" href="/assets/css/bb-index.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
@@ -911,6 +910,8 @@ CDN:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
 
+# electric_clock
+# see https://anzhiy.cn/posts/fc18.html
 electric_clock:
   enable: true # 开关
   priority: 5 #过滤器优先权
@@ -922,10 +923,14 @@ electric_clock:
     type: class
     name: sticky_layout
     index: 0
-  loading: https://npm.elemecdn.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
-  clock_css: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.css
-  clock_js: https://cdn.imcao.cn/source/assets/scripts/clock.min.js
-  ip_api: https://pv.sohu.com/cityjson?ie=utf-8
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
+  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+  qweather_key: # 和风天气key
+  gaud_map_key: # 高得地图web服务key
+  default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
+  rectangle: 120.15515,30.27415 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
 
 gitcalendar:
   enable: true
