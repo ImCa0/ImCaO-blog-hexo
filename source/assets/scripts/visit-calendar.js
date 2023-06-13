@@ -7,7 +7,7 @@ var visit_calendar = (site_id, access_token, metrics, visit_color) => {
   date.setTime(date.getTime() - 24 * 3600 * 1000 * date.getDay());
   var start_date = "" + date.getFullYear() + (date.getMonth() > 8 ? date.getMonth() + 1 : "0" + (date.getMonth() + 1)) + (date.getDate() > 9 ? date.getDate() : "0" + date.getDate());
   var visit_apiurl =
-    "https://baidu-tongji-api.vercel.app/api?site_id=" +
+    "https://tongji.eurkon.com/api?site_id=" +
     site_id +
     "&access_token=" +
     access_token +
@@ -276,5 +276,5 @@ var loading_visit = (color) => {
   var visit_color = ["#d7dbe2", "#fdcdec", "#fc9bd9", "#fa6ac5", "#f838b2", "#f5089f", "#c4067e", "#92055e", "#540336", "#48022f", "#30021f"];
   append_div_visitcalendar(visit_container, loading_visit("#49b1f5"));
   // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
-  visit_calendar("16350363", "121.e86319c0d8d16a3a78447bcdcdf61bda.Y3rgaa6Lwr2V6i8xhLYuuiYNm90t7R0WgAuKsST._PNBMQ", "pv_count", visit_color);
+  visit_calendar("16350363", "121.cc6891b9e3cc9bf57c03b761e4080972.YnbDtYlClGamAp1Kize3t0G2FzlnyxtzHzjQcgw.ATqLWg", "pv_count", visit_color);
 })();

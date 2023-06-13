@@ -5,9 +5,12 @@ var date = new Date();
 var mon = date.getMonth() + 1;
 var day = date.getDate();
 const endDate = date.getFullYear() + (mon < 10 ? "0" + mon : mon) + (day < 10 ? "0" + day : day); // 结束日期
-const accessToken = "121.e86319c0d8d16a3a78447bcdcdf61bda.Y3rgaa6Lwr2V6i8xhLYuuiYNm90t7R0WgAuKsST._PNBMQ"; // accessToken
+
+// 有效期仅为一个月，需要手动刷新，/ImCaO/杂项/百度统计API.txt
+const accessToken = "121.cc6891b9e3cc9bf57c03b761e4080972.YnbDtYlClGamAp1Kize3t0G2FzlnyxtzHzjQcgw.ATqLWg"; // accessToken
+
 const siteId = "16350363"; // 网址 id
-const dataUrl = "https://baidu-tongji-api.vercel.app/api?access_token=" + accessToken + "&site_id=" + siteId;
+const dataUrl = "https://tongji.eurkon.com/api?access_token=" + accessToken + "&site_id=" + siteId;
 const metrics = "pv_count"; // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
 const metricsName = metrics === "pv_count" ? "访问次数" : metrics === "visitor_count" ? "访客数" : "";
 var color = document.documentElement.getAttribute("data-theme") === "light" ? "#4c4948" : "rgba(255,255,255,0.7)";
