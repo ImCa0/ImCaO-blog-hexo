@@ -13,6 +13,6 @@ date: 2022-02-25 11:17:24
   link_list:
     - name: 云游君
       link: https://www.yunyoujun.cn
-      avatar: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io/images/avatar.jpg
+      avatar: https://www.yunyoujun.cn/images/avatar.jpg
       descr: 希望能成为一个有趣的人。
 {% endflink %}

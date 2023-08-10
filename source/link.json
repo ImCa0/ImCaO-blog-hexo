@@ -4,10 +4,10 @@
     "class_desc": "",
     "link_list": [
       {
-        "name": "午后南杂",
+        "name": "Reco",
         "link": "https://www.recoluan.com",
         "avatar": "https://www.recoluan.com/head.png",
-        "descr": "快速、簡單且強大的網誌框架"
+        "descr": "vuepress-reco 作者"
       },
       {
         "name": "Akilarの糖果屋",
@@ -40,16 +40,10 @@
         "descr": "岂能尽如人意，但求无愧于心"
       },
       {
-        "name": "latte and cat",
-        "link": "https://blog.smallsunnyfox.com",
-        "avatar": "https://photo.smallsunnyfox.com/images/blog/head.png",
-        "descr": "study programs and record life"
-      },
-      {
         "name": "L1nSn0w's Blog",
         "link": "https://blog.linsnow.cn",
         "avatar": "https://blog.linsnow.cn/img/avatar.png",
-        "descr": "我很菜，你忍一下！"
+        "descr": "无限进步.🎈"
       },
       {
         "name": "LOGI",
@@ -58,9 +52,9 @@
         "descr": "会点代码的强迫症"
       },
       {
-        "name": "平凡的你我",
+        "name": "小陈博客",
         "link": "https://reinness.com",
-        "avatar": "https://reinness.com/static/avatar.png",
+        "avatar": "https://qiniu.reinness.com/avatar.png",
         "descr": "理想成为大牛的小陈同学"
       },
       {
@@ -76,22 +70,10 @@
         "descr": "鱼跃此时海，花开彼岸天"
       },
       {
-        "name": "Sakura` Blogs",
-        "link": "https://jinan6.vip",
-        "avatar": "https://cdn.jsdelivr.net/gh/jinan6/PicGo-img/img/20200617192549.png",
-        "descr": "或苦或甜都不要辜负~"
-      },
-      {
         "name": "Colsrch",
         "link": "https://colsrch.cn",
-        "avatar": "https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg",
+        "avatar": "https://bu.dusays.com/2022/02/23/cb173cbdcc7c6.png",
         "descr": "愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。"
-      },
-      {
-        "name": "HuRan Blog",
-        "link": "https://blog.huran.xyz",
-        "avatar": "https://img.huran.xyz/avatar.png",
-        "descr": "长风破浪会有时，直挂云帆济沧海"
       },
       {
         "name": "云游君",
@@ -102,19 +84,19 @@
       {
         "name": "Slcpの童话镇",
         "link": "https://slcp.top",
-        "avatar": "https://img.slcp.top/bg.jpg",
+        "avatar": "https://slcp.top/images/bg.jpg",
         "descr": "你若盛开，阳光自来。"
       },
       {
         "name": "FF",
         "link": "https://foolishfox.cn",
-        "avatar": "https://sdn.geekzu.org/avatar/53bc457fbba563ce1ce80edda8310241",
+        "avatar": "https://asset.foolishfox.cn/static/avatar.jpg",
         "descr": "foolish fox"
       },
       {
         "name": "阿楠",
         "link": "https://nanzx.top",
-        "avatar": "https://cdn.jsdelivr.net/gh/839777408/tupian/img/head.jpg",
+        "avatar": "https://unpkg.com/nan-picture/img/head.jpg",
         "descr": "百学须先立志"
       },
       {
@@ -127,22 +109,22 @@
         "name": "Eurkon",
         "link": "https://blog.eurkon.com",
         "avatar": "https://blog.eurkon.com/images/user/avatar.jpg",
-        "descr": "不只是代码的搬运工"
+        "descr": "及时当勉励，岁月不待人。"
       },
       {
         "name": "星空下的YZY",
         "link": "https://226yzy.com",
-        "avatar": "https://i.imgtg.com/2022/02/15/TXcaN.jpg",
+        "avatar": "https://226yzy.com/medias/avatar.jpg",
         "descr": "记录一枚菜鸟的征程"
       },
       {
-        "name": "HalfA博客",
+        "name": "马浩飞丨博客",
         "link": "https://www.mahaofei.com/",
         "avatar": "https://image.mahaofei.com/avatar.jpg",
         "descr": "无限进步！"
       },
       {
-        "name": "UtopiaXC’s Sites",
+        "name": "UtopiaXC's Sites",
         "link": "https://www.utopiaxc.cn/",
         "avatar": "https://imgs.utopiaxc.cn/2021/08/28/ccd08b1e5dd5b.png",
         "descr": "尽管如此，世界依旧美丽"
@@ -150,20 +132,26 @@
       {
         "name": "幼稚园园长",
         "link": "https://yzyyz.top",
-        "avatar": "https://cdn.jsdelivr.net/gh/yzyyz1387/blogimages/img/bloger.jpeg",
+        "avatar": "https://cdn.staticaly.com/gh/yzyyz1387/blogimages/master/img/bloger.jpeg",
         "descr": "学无止境 知行合一"
       },
       {
-        "name": "碗里有肉丝",
+        "name": "星落",
         "link": "https://urosi.cn",
         "avatar": "https://urosi.cn/tou.png",
-        "descr": "记录生活，分享你我"
+        "descr": "一个记录生活的圈子"
       },
       {
-        "name": "Xlenco's logs",
-        "link": "https://xlenco.eu.org",
-        "avatar": "https://xlenco.eu.org/img/head.webp",
-        "descr": "最好的地方是没去过的地方，最好的时光，是回不来的时光。"
+        "name": "从01开始",
+        "link": "https://www.peterjxl.com",
+        "avatar": "https://image.peterjxl.com/blog/re0.jpg",
+        "descr": "那就从零开始"
+      },
+      {
+        "name": "Wisdoms",
+        "link": "https://wisdoms.xin",
+        "avatar": "https://wisdoms.xin/avatar.png",
+        "descr": "Marvin的个人网站"
       }
     ]
   },
