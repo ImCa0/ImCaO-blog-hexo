@@ -933,7 +933,7 @@ electric_clock:
   rectangle: 120.15515,30.27415 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
 
 gitcalendar:
-  enable: true
+  enable: false
   #设为true时使用canvas绘制gitgitcalendar，
   #设为false时使用svg绘制gitgitcalendar
   simplemode: false
