@@ -9,11 +9,12 @@ menu:
   友人帐: /link/ || fa-solid fa-user-group
   关于我: /about/ || fa-solid fa-address-card
   传送门||fa-regular fa-person-to-portal||hide:
-    足迹: /footprint/ || fa-solid fa-location-dot
-    空调房: /air-conditioner/ || fa-solid fa-air-conditioner
-    博客统计: /census/ || fa-solid fa-chart-column
+    JustLaws: https://www.justlaws.cn/ || fa-solid fa-scale-balanced
     站点历程: /progress/ || fa-solid fa-clock-rotate-left
+    空调房: /air-conditioner/ || fa-solid fa-air-conditioner
     个人收藏夹: https://www.imcao.cn/favorites/ || fa-solid fa-bookmark
+    # 足迹: /footprint/ || fa-solid fa-location-dot
+    # 博客统计: /census/ || fa-solid fa-chart-column
 
 # Code Blocks (代碼相關)
 # --------------------------------------
