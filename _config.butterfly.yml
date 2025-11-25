@@ -338,7 +338,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://www.imcao.cn/twikoo-comment
+  envId: https://blog.imcao.com/twikoo-comment
   region:
   visitor: true
   option:
