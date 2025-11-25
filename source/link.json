@@ -34,18 +34,6 @@
     "class_desc": "",
     "link_list": [
       {
-        "name": "叫我詹躲躲",
-        "link": "https://zhanhongzhu.top",
-        "avatar": "https://zhanhongzhu.top/avatar.jpg",
-        "descr": "岂能尽如人意，但求无愧于心"
-      },
-      {
-        "name": "L1nSn0w's Blog",
-        "link": "https://blog.linsnow.cn",
-        "avatar": "https://blog.linsnow.cn/img/avatar.png",
-        "descr": "无限进步.🎈"
-      },
-      {
         "name": "LOGI",
         "link": "https://logi.im",
         "avatar": "https://code.bdstatic.com/npm/logicdn@1.0.0/logi.im/usr/images/global/logo.webp",
@@ -54,7 +42,7 @@
       {
         "name": "小陈博客",
         "link": "https://reinness.com",
-        "avatar": "https://qiniu.reinness.com/avatar.png",
+        "avatar": "https://assets.reinness.com/blog/imgs/avatar.png",
         "descr": "理想成为大牛的小陈同学"
       },
       {
@@ -62,12 +50,6 @@
         "link": "https://vimin.cc",
         "avatar": "https://pic.vimin.cc/logo.png",
         "descr": "记录生活点滴，谱写精彩生活！"
-      },
-      {
-        "name": "鱼跃此时海",
-        "link": "https://www.overme.cn",
-        "avatar": "https://www.overme.cn/static/img/portrait.jpg",
-        "descr": "鱼跃此时海，花开彼岸天"
       },
       {
         "name": "Colsrch",
@@ -82,22 +64,10 @@
         "descr": "希望能成为一个有趣的人。"
       },
       {
-        "name": "Slcpの童话镇",
-        "link": "https://slcp.top",
-        "avatar": "https://slcp.top/images/bg.jpg",
-        "descr": "你若盛开，阳光自来。"
-      },
-      {
         "name": "FF",
         "link": "https://foolishfox.cn",
         "avatar": "https://asset.foolishfox.cn/static/avatar.jpg",
         "descr": "foolish fox"
-      },
-      {
-        "name": "阿楠",
-        "link": "https://nanzx.top",
-        "avatar": "https://unpkg.com/nan-picture/img/head.jpg",
-        "descr": "百学须先立志"
       },
       {
         "name": "小康博客",
@@ -110,12 +80,6 @@
         "link": "https://blog.eurkon.com",
         "avatar": "https://blog.eurkon.com/images/user/avatar.jpg",
         "descr": "及时当勉励，岁月不待人。"
-      },
-      {
-        "name": "星空下的YZY",
-        "link": "https://226yzy.com",
-        "avatar": "https://226yzy.com/medias/avatar.jpg",
-        "descr": "记录一枚菜鸟的征程"
       },
       {
         "name": "马浩飞丨博客",
@@ -134,12 +98,6 @@
         "link": "https://yzyyz.top",
         "avatar": "https://cdn.staticaly.com/gh/yzyyz1387/blogimages/master/img/bloger.jpeg",
         "descr": "学无止境 知行合一"
-      },
-      {
-        "name": "星落",
-        "link": "https://urosi.cn",
-        "avatar": "https://urosi.cn/tou.png",
-        "descr": "一个记录生活的圈子"
       },
       {
         "name": "从01开始",
