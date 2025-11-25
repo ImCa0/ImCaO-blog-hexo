@@ -32,7 +32,7 @@ ECharts 的功能非常强大，几乎可以用它制作任意类型的图表，
 
 ![2](source@/2.jpg)
 
-[足迹](https://www.imcao.cn/footprint)
+[足迹](https://blog.imcao.com/footprint)
 
 ## 被迫升级
 

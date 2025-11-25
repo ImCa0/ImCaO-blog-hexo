@@ -12,7 +12,7 @@ menu:
     JustLaws: https://www.justlaws.cn/ || fa-solid fa-scale-balanced
     站点历程: /progress/ || fa-solid fa-clock-rotate-left
     空调房: /air-conditioner/ || fa-solid fa-air-conditioner
-    个人收藏夹: https://www.imcao.cn/favorites/ || fa-solid fa-bookmark
+    个人收藏夹: https://blog.imcao.com/favorites/ || fa-solid fa-bookmark
     # 足迹: /footprint/ || fa-solid fa-location-dot
     # 博客统计: /census/ || fa-solid fa-chart-column
 
@@ -39,7 +39,7 @@ copy:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com/ImCa0 || Github
-  fas fa-envelope: mailto:imcao@imcao.cn || Email
+  fas fa-envelope: mailto:imcao@imcao.com || Email
   fab fa-weibo: https://weibo.com/u/3533869340 || Weibo
   fab fa-steam: https://steamcommunity.com/id/ImCaO || Steam
 

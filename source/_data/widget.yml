@@ -4,4 +4,4 @@ bottom:
     name: 传送
     icon: fa-regular fa-person-to-portal
     order:
-    html: <div style="display:flex;justify-content:space-between;align-items:center;line-height:0"> <div style="width:48%"> <a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://www.imcao.cn/assets/footer/wormhole.gif" alt="" style="width:100%" title="穿梭虫洞-随机访问十年之约友链博客" /> </a> </div> <div style="width:48%"> <a href="https://www.travellings.cn/go.html" target="_blank"> <img src="https://www.imcao.cn/assets/footer/travelling.svg" alt="" style="width:100%" title="开往-友链接力" /> </a> </div> </div>
+    html: <div style="display:flex;justify-content:space-between;align-items:center;line-height:0"> <div style="width:48%"> <a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://blog.imcao.com/assets/footer/wormhole.gif" alt="" style="width:100%" title="穿梭虫洞-随机访问十年之约友链博客" /> </a> </div> <div style="width:48%"> <a href="https://www.travellings.cn/go.html" target="_blank"> <img src="https://blog.imcao.com/assets/footer/travelling.svg" alt="" style="width:100%" title="开往-友链接力" /> </a> </div> </div>

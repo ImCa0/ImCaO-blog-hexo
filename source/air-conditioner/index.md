@@ -3,7 +3,7 @@ title: 空调房
 date: 2022-02-25 11:17:24
 ---
 
-<iframe height="675" src="https://www.imcao.cn/iframe/air-conditioner/#/" border="0" frameborder="no" width="100%"></iframe>
+<iframe height="675" src="https://blog.imcao.com/iframe/air-conditioner/#/" border="0" frameborder="no" width="100%"></iframe>
 
 ## 特别谢明 —— 空调供应商
 

@@ -2,7 +2,7 @@
 title: 友人帐
 date: 2022-01-17 21:48:11
 type: "link"
-flink_url: https://www.imcao.cn/link.json
+flink_url: https://blog.imcao.com/link.json
 ---
 
 ## 友链申请 🚀
@@ -42,8 +42,8 @@ descr: "" // 网站描述
 
 ```yml
 name: "ImCaO's Blog"
-link: "https://www.imcao.cn"
-avatar: "https://www.imcao.cn/avatar.png"
+link: "https://blog.imcao.com"
+avatar: "https://blog.imcao.com/avatar.png"
 descr: "花有重开日，人无再少年。"
 ```
 
