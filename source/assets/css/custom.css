@@ -58,13 +58,14 @@
 .fontawesomeIcon,
 hr:before,
 #post .post-outdate-notice:before,
-.note:not(.no-icon)::before {
+.note:not(.no-icon)::before,
+.post-copyright:before {
   font-family: "Font Awesome 6 Pro" !important;
 }
 
-.gitcalendar {
-  font-family: ZhuZiAYuanJWD;
-  /* margin-top: 20px; */
-  border-radius: 8px;
-  background-color: var(--card-bg);
+@media screen and (min-width: 2000px) {
+  .layout
+  {
+    max-width: 1500px;
+  }
 }
