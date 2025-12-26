@@ -5,7 +5,7 @@ tags:
   - 歌曲
 categories:
   - 投币收藏
-cover: /assets/covers/LoveStory.png
+cover: /assets/covers/LoveStory-Taylor.png
 description: 《Love Story》是一首由美国乡村音乐女歌手泰勒·斯威夫特（Taylor Swift）创作和演唱的乡村流行歌曲。
 copyright: false
 ---
