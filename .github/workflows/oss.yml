@@ -1,0 +1,40 @@
+name: Upload to OSS
+
+on:
+  push:
+    branches:
+      - master  # 可以根据需要更改为其他分支
+    paths:
+      - 'source/assets/**'  # 只在特定路径下的文件发生变化时触发工作流
+
+jobs:
+  upload-to-oss:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 检出代码
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # 设置 Python 环境（可以使用其他语言工具，根据需要）
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+
+    # 安装 OSS 工具
+    - name: Install OSS client
+      run: |
+        python -m pip install --upgrade pip
+        pip install oss2
+        pip show oss2  # 显示 oss2 库的安装信息，帮助调试
+    # 上传文件到 OSS
+    - name: Upload resources to OSS
+      env:
+        ACCESS_KEY_ID: ${{ secrets.ALIYUN_OSS_ACCESS_KEY_ID }}
+        ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_OSS_ACCESS_KEY_SECRET }}
+        OSS_BUCKET: "imcao-blog"
+        OSS_ENDPOINT: "https://oss-cn-hangzhou.aliyuncs.com"
+        OSS_REGION: "cn-hangzhou"
+      run: |
+        python .github/scripts/upload_to_oss.py
