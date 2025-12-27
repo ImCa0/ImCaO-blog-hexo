@@ -2,14 +2,14 @@
   "name": "imcao-hexo",
   "version": "1.1.1",
   "scripts": {
-    "build": "hexo generate",
+    "build": "npx hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "set NODE_ENV=development&&hexo server",
     "commit": "git add . && git commit && npm version patch"
   },
   "hexo": {
-    "version": "6.2.0"
+    "version": "6.3.0"
   },
   "dependencies": {
     "hexo": "^6.2.0",

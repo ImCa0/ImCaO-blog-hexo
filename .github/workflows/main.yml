@@ -1,4 +1,4 @@
-name: Deploy
+name: Build & Deploy
 
 on:
   push:
@@ -6,25 +6,60 @@ on:
       - master
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    env:
-      NODE_VERSION: '16'
+
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          submodules: true
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - run: npm install
-      - run: npm run build
-      - uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: "/public/"
-          REMOTE_HOST: "${{ secrets.SERVER_HOST }}"
-          REMOTE_USER: "${{ secrets.USER_NAME }}"
-          TARGET: "/usr/local/nginx/html/blog"
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        submodules: recursive
+
+    - name: Set up Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build project
+      run: npm run build
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+
+    - name: Install Python deps
+      run: |
+        pip install --upgrade pip
+        pip install oss2
+
+    # ====== 上传 OSS（assets/css/js/img）======
+    - name: Upload static assets to OSS
+      env:
+        ACCESS_KEY_ID: ${{ secrets.ALIYUN_OSS_ACCESS_KEY_ID }}
+        ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_OSS_ACCESS_KEY_SECRET }}
+        OSS_BUCKET: imcao-blog
+        OSS_ENDPOINT: https://oss-cn-hangzhou.aliyuncs.com
+        OSS_REGION: cn-hangzhou
+      run: |
+        python .github/scripts/upload_to_oss.py
+
+    # ====== 同步到 Nginx 服务器 ======
+    - name: Sync other files to Nginx
+      uses: easingthemes/ssh-deploy@main
+      with:
+        SSH_PRIVATE_KEY: ${{ secrets.NGINX_SSH_KEY }}
+        REMOTE_HOST: ${{ secrets.NGINX_HOST }}
+        REMOTE_USER: ${{ secrets.NGINX_USER }}
+        REMOTE_PORT: 22
+        SOURCE: "public/"
+        TARGET: "/usr/share/nginx/html/blog/"
+        ARGS: >
+          --delete
+          --exclude=assets/
+          --exclude=css/
+          --exclude=js/
+          --exclude=img/

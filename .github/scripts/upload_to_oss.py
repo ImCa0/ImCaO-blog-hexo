@@ -1,48 +1,61 @@
 import oss2
 import os
 import hashlib
-from pathlib import Path
 
-# 获取阿里云 OSS 客户端
-auth = oss2.Auth(os.getenv('ACCESS_KEY_ID'), os.getenv('ACCESS_KEY_SECRET'))
-bucket = oss2.Bucket(auth, os.getenv('OSS_ENDPOINT'), os.getenv('OSS_BUCKET'), region=os.getenv('OSS_REGION'))
+# ========= OSS Client =========
+auth = oss2.Auth(
+    os.getenv("ACCESS_KEY_ID"),
+    os.getenv("ACCESS_KEY_SECRET")
+)
+bucket = oss2.Bucket(
+    auth,
+    os.getenv("OSS_ENDPOINT"),
+    os.getenv("OSS_BUCKET"),
+    region=os.getenv("OSS_REGION")
+)
 
-def calculate_md5(file_path):
-    md5 = hashlib.md5()
-    with open(file_path, 'rb') as f:
-        while chunk := f.read(8192):
-            md5.update(chunk)
-    return md5.hexdigest()
+# ========= Utils =========
+def md5sum(path: str) -> str:
+    h = hashlib.md5()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(8192), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
-def normalize_and_lower(etag):
+def normalize_etag(etag: str) -> str:
     return etag.strip('"').lower()
 
-# 遍历资源文件并上传，检查是否已存在或是否更新
-resource_path = 'source/assets'  # 需要上传的本地文件路径
-for root, dirs, files in os.walk(resource_path):
-    for file in files:
-        local_path = os.path.join(root, file)
-        remote_path = 'assets/' + os.path.relpath(local_path, resource_path)
+# ========= Config =========
+PUBLIC_DIR = "public"
+OSS_DIRS = {"assets", "css", "js", "img"}
 
-        # 判断 OSS 上是否已经有该文件
+# ========= Upload Logic =========
+for root, _, files in os.walk(PUBLIC_DIR):
+    for filename in files:
+        local_path = os.path.join(root, filename)
+        rel_path = os.path.relpath(local_path, PUBLIC_DIR)
+
+        top_dir = rel_path.split(os.sep, 1)[0]
+        if top_dir not in OSS_DIRS:
+            continue
+
+        oss_path = rel_path.replace(os.sep, "/")
+        local_md5 = md5sum(local_path)
+
+        action = "UPLOAD"
+        suffix = ""
+
         try:
-            result = bucket.head_object(remote_path)
-            oss_etag = result.headers.get('etag')  # 获取 OSS 文件的 ETag（哈希值）
-            normalized_etag = normalize_and_lower(oss_etag)
-            
-            # 如果文件内容未变化，跳过上传
-            if normalized_etag:
-                with open(local_path, 'rb') as f:
-                    local_md5 = calculate_md5(local_path)  # 计算本地文件的 MD5
-                    print(f'local_md5: {local_md5}')
-                    print(f'normalized_etag: {normalized_etag}')
-                    if normalized_etag == local_md5:
-                        print(f'{remote_path} is up-to-date, skipping upload.')
-                        continue
+            head = bucket.head_object(oss_path)
+            oss_md5 = normalize_etag(head.headers["etag"])
+
+            if oss_md5 == local_md5:
+                action = "SKIP"
         except oss2.exceptions.NoSuchKey:
-            # 文件不存在，执行上传
-            pass
-        
-        # 上传文件
-        print(f'Uploading {local_path} to OSS as {remote_path}')
-        bucket.put_object_from_file(remote_path, local_path)
+            suffix = " (new)"
+
+        # === 单条日志输出 ===
+        print(f"[{action}] {oss_path}{suffix}")
+
+        if action == "UPLOAD":
+            bucket.put_object_from_file(oss_path, local_path)
