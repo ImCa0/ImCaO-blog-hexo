@@ -7,7 +7,7 @@ tags:
   - 乔纳森·布洛
 categories:
   - 好文转载
-cover: /assets/covers/preventing-the-collapsing-of-civilization.png
+cover: /assets/covers/preventing-the-collapsing-of-civilization.jpg
 copyright_author: 这样重这样轻
 copyright_url: https://www.gcores.com/articles/110509
 ---

@@ -7,7 +7,7 @@ tags:
 categories:
   - 我的开发
   - JustLaws
-cover: /assets/covers/exhibition.png
+cover: /assets/covers/exhibition.jpg
 sticky: 100
 ---
 
