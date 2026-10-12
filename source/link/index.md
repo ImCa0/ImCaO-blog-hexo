@@ -23,11 +23,7 @@ flink_url: ../link.json
 
 <!-- tab 申请方式 -->
 
-### 方式一：修改 GitHub [友链文件](https://github.com/ImCa0/ImCaO-blog-hexo/edit/master/source/link.json)，并提交 PR（快速）
-
-[![github](/assets/img/github.png)](https://github.com/ImCa0/ImCaO-blog-hexo/edit/master/source/link.json)
-
-### 方式二：提交评论并包含以下信息
+提交评论并包含以下信息
 
 ```yml
 name: "" // 网站名称

@@ -70,12 +70,6 @@
         "descr": "foolish fox"
       },
       {
-        "name": "小康博客",
-        "link": "https://www.antmoe.com",
-        "avatar": "https://npm.elemecdn.com/kang-static@latest/avatar.jpg",
-        "descr": "一个收藏回忆与分享技术的地方！"
-      },
-      {
         "name": "Eurkon",
         "link": "https://blog.eurkon.com",
         "avatar": "https://blog.eurkon.com/images/user/avatar.jpg",
@@ -96,11 +90,11 @@
       {
         "name": "幼稚园园长",
         "link": "https://yzyyz.top",
-        "avatar": "https://cdn.staticaly.com/gh/yzyyz1387/blogimages/master/img/bloger.jpeg",
+        "avatar": "https://yzyyz.top/bloger.png",
         "descr": "学无止境 知行合一"
       },
       {
-        "name": "从01开始",
+        "name": "PeterJXL",
         "link": "https://www.peterjxl.com",
         "avatar": "https://image.peterjxl.com/blog/re0.jpg",
         "descr": "那就从零开始"
@@ -110,6 +104,49 @@
         "link": "https://wisdoms.xin",
         "avatar": "https://wisdoms.xin/avatar.png",
         "descr": "Marvin的个人网站"
+      },
+      {
+        "name": "故事的程序猿",
+        "link": "https://blog.lichenghao.cn",
+        "avatar": "https://blog.lichenghao.cn/avatar.svg",
+        "descr": "好好学习，天天向上↑"
+      },
+      {
+        "name": "Leet",
+        "link": "https://leetme.netlify.app",
+        "avatar": "https://leetme.netlify.app/logo.svg",
+        "descr": "Out of my mind."
+      },
+      {
+        "name": "HZH",
+        "link": "https://clannad.top",
+        "avatar": "https://clannad.top/favicon.png",
+        "descr": "Welcome to HZH"
+      }
+    ]
+  },
+  {
+    "class_name": "已失联 📡",
+    "link_list": [
+      {
+        "name": "HuRan Blog",
+        "link": "https://blog.huran.xyz",
+        "descr": "长风破浪会有时，直挂云帆济沧海"
+      },
+      {
+        "name": "Slcpの童话镇",
+        "link": "https://slcp.top",
+        "descr": "你若盛开，阳光自来。"
+      },
+      {
+        "name": "青丝博客",
+        "link": "https://urosi.cn",
+        "descr": "记录生活，分享你我"
+      },
+      {
+        "name": "小朊朋友圈",
+        "link": "https://www.xrpyq.com",
+        "descr": "隔牖风惊竹，开门雪满山！"
       }
     ]
   },
@@ -118,16 +155,16 @@
     "class_desc": "每一个前十年都想不到后十年我会演变成何等模样，可知人生无常，没有什么规律，没有什么必然。",
     "link_list": [
       {
-        "name": "虫洞",
-        "link": "https://www.foreverblog.cn/go.html",
-        "avatar": "https://cdn.imcao.cn/source/assets/img/wormhole.gif",
-        "descr": "一个人的寂寞，一群人的狂欢。"
-      },
-      {
         "name": "开往",
         "link": "https://www.travellings.cn/go.html",
         "avatar": "https://www.travellings.cn/assets/travelling-dark.png",
         "descr": "开往下一个世界的列车就要出发了"
+      },
+      {
+        "name": "十年之约",
+        "link": "https://www.foreverblog.cn/go.html",
+        "avatar": "https://www.foreverblog.cn/assets/logo/logo_v2_black.png",
+        "descr": "一个人的寂寞，一群人的狂欢。"
       }
     ]
   }

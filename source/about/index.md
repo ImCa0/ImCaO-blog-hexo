@@ -7,7 +7,9 @@ date: 2022-01-17 21:45:39
 
 👋 你好，我是 ImCaO，1997 年出生
 
-💼 目前就职于华为，从事 OpenHarmony 的开发工作
+💼 目前就职于华为马尔科夫实验室，从事算子性能建模仿真与优化工作
+
+💼 ~~目前就职于华为，从事 OpenHarmony 的开发工作~~
 
 🎓 ~~目前就读 NUAA 机械电子工程硕士研究生，预计将于 2023 上半年毕业~~
 
@@ -23,15 +25,15 @@ date: 2022-01-17 21:45:39
 
  - 👨‍💻 C++
 
+ - 🐍 Python
+
 ## 喜欢玩的游戏
 
- - 🔫 CS:GO (1500h)
+ - 🔫 CS:GO
 
- - 🚨 GTA 5 (1100h)
+ - 👾 魔兽世界
 
- - 👾 魔兽世界 (1000+h)
-
- - 🏎️ 极限竞速：地平线 5 (200h)
+ - 🏎️ 极限竞速：地平线
 
 ## 联系方式
 
@@ -40,7 +42,5 @@ date: 2022-01-17 21:45:39
  - 💡 GitHub: [ImCaO](https://github.com/ImCa0)
 
  - 🐧 QQ: [499106599](https://qm.qq.com/cgi-bin/qm/qr?k=se4VAGNgk23RomydsMDyaA_-e-sVh8To&noverify=0)
-
- - 🔥 微博: [ImCa0](https://weibo.com/u/3533869340)
 
  - 🎮 Steam: [ImCaO](https://steamcommunity.com/id/ImCaO)
